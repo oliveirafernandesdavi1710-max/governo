@@ -10,9 +10,7 @@ Assunto:
 
 Escolha dos responsáveis pela coordenação, secretaria e escolha da divisão de tarefas.
 
-Ausentes:
-
-Sem ausência.
+Ausentes: Sem ausência.
 
 Responsabilidades:
 
@@ -48,9 +46,7 @@ Assunto:
 
 Coleta de informações para o site.
 
-Ausentes:
-
-Sem ausência.
+Ausentes: Sem ausência.
 
 Responsabilidades:
 
@@ -80,9 +76,7 @@ Assunto:
 
 Divisão do GitHub e coleta de referências para o design do Figma.
 
-Ausentes:
-
-Sem ausência.
+Ausentes: Sem ausência.
 
 Responsabilidades:
 
@@ -106,9 +100,7 @@ Assunto:
 
 Organizações gerais sobre o GitHub e o Figma.
 
-Ausentes:
-
-Sem ausência.
+Ausentes: Sem ausência.
 
 Responsabilidades:
 
