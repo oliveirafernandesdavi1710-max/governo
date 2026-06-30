@@ -1,4 +1,4 @@
-# governo
+# Ata de Reunião
 
 Ata de Reunião
 
@@ -110,6 +110,28 @@ Secretário: Matheus Araújo dos Santos.
 
 Divisão de tarefas:
 
-...
+Fontes de texto: Davi de Oliveira Fernandes.
 
-[Coleta de Fontes](https://www.google.com/url?q=https://docs.google.com/document/d/145Z1LOi6_s0zuTsADoIWr2SLv7Q-1b2hFwnFYRtPqCY/edit?usp%3Dsharing&sa=D&source=editors&ust=1782236633716514&usg=AOvVaw21S3voZg2xZ1-aq_05Od5M)
+Paleta de cores: Rian Luka Gazziero da Rosa.
+
+Data:
+
+30/06/2026
+
+Assunto:
+
+Início da criação do desing do site pelo Figma.
+
+Ausentes: Sem ausência.
+
+Responsabilidades:
+
+Coordenador: Gabriel Vicente Ziele.
+
+Secretário: Matheus Araújo dos Santos.
+
+Divisão de tarefas:
+
+Criação da primeira página: Matheus Araújo dos Santos.
+
+Criação da primeira página: Fábio Sebastian Correa Marques.
