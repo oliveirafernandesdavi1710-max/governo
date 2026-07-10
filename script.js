@@ -39,3 +39,7 @@ if (p5 == 'A') {
 } else {
     quatro = 0;
 }
+
+let resultado = um + dois + tres + quatro + cinco;
+
+alert(`Vocé acertou ${resultado} de 5 perguntas`);
