@@ -5,11 +5,12 @@ let dois;
 let tres;
 let quatro;
 let cinco;
+let seis;
 
 
 let p1 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
 
-if (p1 == 'A') {
+if (p1 == 'C') {
     um = 1;
     alert(`Você acertou.`);
 } else {
@@ -29,7 +30,7 @@ if (p2 == 'A') {
 
 let p3 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
 
-if (p3 == 'A') {
+if (p3 == 'C') {
     tres = 1;
     alert(`Você acertou.`);
 } else {
@@ -39,7 +40,7 @@ if (p3 == 'A') {
 
 let p4 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
 
-if (p4 == 'A') {
+if (p4 == 'D') {
     quatro = 1;
     alert(`Você acertou.`);
 } else {
@@ -49,7 +50,7 @@ if (p4 == 'A') {
 
 let p5 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
 
-if (p5 == 'A') {
+if (p5 == 'B') {
     cinco = 1;
     alert(`Você acertou.`);
 } else {
@@ -57,8 +58,18 @@ if (p5 == 'A') {
     alert(`Você errou.`);
 }
 
+let p6 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
+
+if (p6 == 'A') {
+    seis = 1;
+    alert(`Você acertou.`);
+} else {
+    seis = 0;
+    alert(`Você errou.`);
+}
 
 
-let resultado = um + dois + tres + quatro + cinco;
 
-alert(`Vocé acertou ${resultado} de 5 perguntas`);
+let resultado = um + dois + tres + quatro + cinco + seis;
+
+alert(`Vocé acertou ${resultado} de 6 perguntas`);
