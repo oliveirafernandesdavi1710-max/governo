@@ -12,32 +12,42 @@ let p5 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
 
 if (p1 == 'A') {
     um = 1;
+    alert(`Você acertou.`);
 } else {
     um = 0;
+    alert(`Você errou.`);
 }
 
 if (p2 == 'A') {
     dois = 1;
+    alert(`Você acertou.`);
 } else {
     dois = 0;
+    alert(`Você errou.`);
 }
 
 if (p3 == 'A') {
     tres = 1;
+    alert(`Você acertou.`);
 } else {
     tres = 0;
+    alert(`Você errou.`);
 }
 
 if (p4 == 'A') {
     quatro = 1;
+    alert(`Você acertou.`);
 } else {
     quatro = 0;
+    alert(`Você errou.`);
 }
 
 if (p5 == 'A') {
-    quatro = 1;
+    cinco = 1;
+    alert(`Você acertou.`);
 } else {
-    quatro = 0;
+    cinco = 0;
+    alert(`Você errou.`);
 }
 
 let resultado = um + dois + tres + quatro + cinco;
