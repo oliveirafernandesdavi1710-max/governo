@@ -1,14 +1,13 @@
+/* Falta colocar algumas coisas ainda. Tipo as oerguntas e as respostas corretas. */
+
 let um;
 let dois;
 let tres;
 let quatro;
 let cinco;
 
+
 let p1 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
-let p2 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
-let p3 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
-let p4 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
-let p5 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
 
 if (p1 == 'A') {
     um = 1;
@@ -18,6 +17,8 @@ if (p1 == 'A') {
     alert(`Você errou.`);
 }
 
+let p2 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
+
 if (p2 == 'A') {
     dois = 1;
     alert(`Você acertou.`);
@@ -25,6 +26,8 @@ if (p2 == 'A') {
     dois = 0;
     alert(`Você errou.`);
 }
+
+let p3 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
 
 if (p3 == 'A') {
     tres = 1;
@@ -34,6 +37,8 @@ if (p3 == 'A') {
     alert(`Você errou.`);
 }
 
+let p4 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
+
 if (p4 == 'A') {
     quatro = 1;
     alert(`Você acertou.`);
@@ -42,6 +47,8 @@ if (p4 == 'A') {
     alert(`Você errou.`);
 }
 
+let p5 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
+
 if (p5 == 'A') {
     cinco = 1;
     alert(`Você acertou.`);
@@ -49,6 +56,8 @@ if (p5 == 'A') {
     cinco = 0;
     alert(`Você errou.`);
 }
+
+
 
 let resultado = um + dois + tres + quatro + cinco;
 
