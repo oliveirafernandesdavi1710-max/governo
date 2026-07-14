@@ -1,4 +1,4 @@
-# Ata de Reunião
+# Atas de Reunião
 
 Ata de Reunião
 
@@ -38,6 +38,9 @@ Imagens: Coleta de imagens de algumas estátuas responsáveis por representar os
 
 Vídeos: Gravações e comentários de especialistas sobre o assunto, com a adição de vídeos que mostram o local do império.
 
+---
+# Ata 2
+
 Data:
 
 09/06/2026
@@ -68,6 +71,9 @@ Vídeos: Fábio Sebastian Corrêa Marques.
 
 Vídeos: João Pedro da Rosa.
 
+---
+# Ata 3
+
 Data:
 
 16/06/2026
@@ -92,6 +98,9 @@ Principal responsável pelo Figma: Fábio Sebastian Corrêa Marques.
 
 Todos: Coleta de duas referências de site ou design para serem usados no Figma.
 
+---
+# Ata 4
+
 Data:
 
 23/06/2026
@@ -114,6 +123,9 @@ Fontes de texto: Davi de Oliveira Fernandes.
 
 Paleta de cores: Rian Luka Gazziero da Rosa.
 
+---
+# Ata 5
+
 Data:
 
 30/06/2026
@@ -135,3 +147,5 @@ Divisão de tarefas:
 Criação da primeira página: Matheus Araújo dos Santos.
 
 Criação da primeira página: Fábio Sebastian Correa Marques.
+
+---
