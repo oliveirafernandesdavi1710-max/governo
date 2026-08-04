@@ -166,7 +166,7 @@ Fábio Sebastian Correa Marques: Criação da primeira página.
 
 Data:
 
-14/07/2026
+07/07/2026
 
 
 Assunto:
@@ -190,7 +190,7 @@ Outros: Polimento do design do Figma.
 
 Data:
 
-04/08/2026
+14/08/2026
 
 
 Assunto:
