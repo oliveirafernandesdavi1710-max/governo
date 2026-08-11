@@ -236,3 +236,35 @@ Matheus Araújo dos Santos: HTML
 Fábio Sebastian Corrêa Marques: Figma.
 
 João Pedro da Rosa: Figma.
+
+---
+# Ata 9
+
+Data:
+
+11/08/2026
+
+
+Assunto:
+
+Finalização do design do Figma e divisão de páginas em HTML.
+
+
+Ausentes:
+
+Sem ausentes.
+
+
+Divisão de tarefas:
+
+Gabriel Vicente Ziele: HTML.
+
+Davi de Oliveira Fernandes: HTML.
+
+Matheus Araújo dos Santos: HTML.
+
+Rian Luka Gazziero da Rosa: HTML.
+
+Fábio Sebastian Corrêa Marques: Figma.
+
+João Pedro da Rosa: Figma.
