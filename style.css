@@ -26,3 +26,51 @@ header.header div{
 display: flex;
 }
 
+/*=== pagina inicial ===*/
+
+header {
+    background-color: #B45A2D;
+    padding: 1vw 3vw 1vw 3vw ;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;  
+    gap: 16px;  
+}
+
+section{
+    background-color: #F6E3CF;
+}
+
+section.topoP1{
+    display: flex;
+    padding: 2vw 2vw ;
+    gap: 4vw;
+}
+
+section.topoP1 h1{
+    font-size: 6vw;
+    font-weight: 480;
+    padding: 3vw 0 3vw 0;
+}
+
+section.topoP1 p{
+    font-size: 3vw;
+    font-weight: 200;
+    padding: 3vw 0 3vw 0;    
+}
+
+section.piramideP1 h2{
+    text-align: center;
+    font-size: 6vw;
+    font-weight: 480;
+    padding: 3vw 0 3vw 0;    
+
+}
+
+footer{
+    background-color: #F0C8A0;
+}
+
