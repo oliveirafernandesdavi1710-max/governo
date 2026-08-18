@@ -38,8 +38,12 @@ header nav ul {
   gap: 16px;
 }
 
+header a {
+  color: black;
+}
+
 header.ft-lil h1 {
-    padding: 3 vw 0 3 vw
+  padding: 3vw 0 3vw
 }
 
 header.header div{
