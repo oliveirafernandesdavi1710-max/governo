@@ -116,3 +116,69 @@ footer {
   text-align: left;
   background-color: #F0C8A0;
 }
+
+
+/*  Quiz  */
+
+main{
+    flex: 1;
+}
+
+body.quiz{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+img.quiz{
+    background: image() ;
+    size: 100%;
+}
+
+.quiz {
+  text-align: center;
+  background-color: #F0B478; /*filtro*/
+  background-image: url("imgs/A4 1.svg");
+  background-size: cover;
+}
+
+section.quiz{
+    background-color: #F0B478;
+    padding: 5vw 0 5vw 0;
+}
+
+section.perguntas{
+    background-color: #F0B478;
+}
+
+section.quiz h1{
+    font-size: 5vw;
+    font-weight: 500;
+    padding: 5vw 0 5vw 0;
+
+}
+
+section.perguntas div{
+    display: flex;
+    padding: 6vw 5vw 6vw 5vw;
+
+}
+
+section.perguntas div p{
+    background-color: #A8600F;
+    margin: 1vw ;
+    border-radius: 10vw;
+    color: white;
+    padding: 2vw 18vw 2vw 18vw ;
+
+}
+
+section.perguntas p.pergunta{
+    font-size: 3.5vw;
+    font-weight: 300;
+    text-align: center;
+}
+
+section.perguntas p{
+    padding: 0vw 18vw;
+}
