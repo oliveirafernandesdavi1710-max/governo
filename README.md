@@ -268,3 +268,36 @@ Rian Luka Gazziero da Rosa: HTML.
 Fábio Sebastian Corrêa Marques: Figma.
 
 João Pedro da Rosa: Figma.
+
+---
+# Ata 10
+
+Data:
+
+18/08/2026
+
+
+Assunto:
+
+Programação em HTML e CSS.
+
+
+Ausentes:
+
+Sem ausentes.
+
+
+
+Divisão de tarefas:
+
+Matheus Araújo dos Santos: Figma.
+
+Fábio Sebastian Corrêa Marques: HTML.
+
+João Pedro da Rosa: HTML.
+
+Gabriel Vicente Ziele: HTML.
+
+Davi de Oliveira Fernandes: CSS.
+
+Rian Luka Gazziero da Rosa: CSS.
