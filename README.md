@@ -287,7 +287,6 @@ Ausentes:
 Sem ausentes.
 
 
-
 Divisão de tarefas:
 
 Matheus Araújo dos Santos: Figma.
@@ -301,3 +300,26 @@ Gabriel Vicente Ziele: HTML.
 Davi de Oliveira Fernandes: CSS.
 
 Rian Luka Gazziero da Rosa: CSS.
+
+
+---
+# Ata 11
+
+Data:
+
+25/08/2026
+
+
+Assunto:
+
+Reunião pré-conselho.
+
+
+Ausentes:
+
+Sem ausentes.
+
+
+Anotação:
+
+O aluno João Pedro da Rosa não fez a tarefa na qual ele foi designado na última aula.
