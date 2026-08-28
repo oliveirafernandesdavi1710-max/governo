@@ -255,6 +255,11 @@ Ausentes:
 Sem ausentes.
 
 
+Notas:
+
+João não fez a tarefa que lhe foi pedida.
+
+
 Divisão de tarefas:
 
 Gabriel Vicente Ziele: HTML.
@@ -285,6 +290,11 @@ Programação em HTML e CSS.
 Ausentes:
 
 Sem ausentes.
+
+
+Notas:
+
+João não fez a tarefa que lhe foi pedida.
 
 
 Divisão de tarefas:
@@ -320,6 +330,6 @@ Ausentes:
 Sem ausentes.
 
 
-Anotação:
+Notas:
 
-O aluno João Pedro da Rosa não fez a tarefa na qual ele foi designado na última aula.
+João não fez a tarefa que lhe foi pedida.
