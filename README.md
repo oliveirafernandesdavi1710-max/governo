@@ -257,7 +257,7 @@ Sem ausentes.
 
 Notas:
 
-João não fez a tarefa que lhe foi pedida.
+João Pedro da Rosa não fez a tarefa que lhe foi pedida na reunião anterior.
 
 
 Divisão de tarefas:
@@ -294,7 +294,7 @@ Sem ausentes.
 
 Notas:
 
-João não fez a tarefa que lhe foi pedida.
+João Pedro da Rosa não fez a tarefa que lhe foi pedida na reunião anterior.
 
 
 Divisão de tarefas:
@@ -332,4 +332,40 @@ Sem ausentes.
 
 Notas:
 
-João não fez a tarefa que lhe foi pedida.
+João Pedro da Rosa não fez a tarefa que lhe foi pedida na reunião anterior.
+
+
+---
+# Ata 12
+
+Data:
+
+29/08/2026
+
+
+Assunto:
+
+Programação em HTML e CSS.
+
+
+Ausentes:
+
+Rian Luka Gazziero da Rosa.
+
+
+Notas:
+
+João Pedro da Rosa não fez a tarefa que lhe foi pedida na reunião anterior.
+
+
+Divisão de tarefas:
+
+Matheus Araújo dos Santos: HTML.
+
+Fábio Sebastian Corrêa Marques: HTML.
+
+João Pedro da Rosa: HTML.
+
+Gabriel Vicente Ziele: HTML.
+
+Davi de Oliveira Fernandes: CSS.
