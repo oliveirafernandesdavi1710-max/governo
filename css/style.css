@@ -76,7 +76,7 @@ main {
   flex: 1; /* Empurra o footer para baixo preenchendo o espaço */
 }
 
-section.explicacao p {
+section.explicacao div {
   text-align: left;
   background-color: #F0B478; 
   background-size: cover;
@@ -100,6 +100,15 @@ footer {
   padding: 20px;
 }
 
+footer h2{
+  padding-top: 2vw;
+}
+
+footer div{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 
 /* === Início === */
@@ -110,8 +119,8 @@ body.inicio section{
 
 section.banner{
     display: flex;
-    padding: 2vw 2vw ;
-    gap: 4vw;
+    padding: 2vw 2vw;
+    gap: 4vw;padding: 2vw 2vw;
 }
 
 section.banner h1{
@@ -215,10 +224,8 @@ section.perguntas{
 }
 
 section.quiz h1{
-    font-size: 5vw;
-    font-weight: 500;
     padding: 5vw 0 5vw 0;
-
+    text-align: center;
 }
 
 section.perguntas div{
@@ -237,8 +244,6 @@ section.perguntas div p{
 }
 
 section.perguntas p.pergunta{
-    font-size: 3.5vw;
-    font-weight: 300;
     text-align: center;
 }
 
@@ -250,6 +255,25 @@ section.perguntas p{
 
 body.criadores{
   background-color: #F6E3CF;
+}
+
+body.criadores h1{
+  padding: 5vw 0;
+  text-align: center;
+}
+
+body.criadores li{
+  display: flex;
+  gap: 1.5vw;
+}
+
+body.criadores img{
+  height: 30vw;
+  padding: 1.5vw 0;
+}
+
+body.criadores section{
+  padding: 3vw;
 }
 
 /* === Homens livres === */
