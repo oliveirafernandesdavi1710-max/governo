@@ -350,6 +350,8 @@ Programação em HTML e CSS.
 
 Ausentes:
 
+
+
 Rian Luka Gazziero da Rosa.
 
 
@@ -369,3 +371,38 @@ João Pedro da Rosa: HTML.
 Gabriel Vicente Ziele: HTML.
 
 Davi de Oliveira Fernandes: CSS.
+
+
+
+---
+# Ata 13
+
+Assunto:
+
+Programação em HTML e CSS.
+
+
+Ausentes:
+
+
+
+Rian Luka Gazziero da Rosa.
+
+
+Notas:
+
+João Pedro da Rosa não fez a tarefa que lhe foi pedida nas reuniões anteriores e intencionalmente agrediu Fábio Sebastian e Matheus Araujo.
+
+
+Divisão de tarefas:
+
+Matheus Araújo dos Santos: HTML.
+
+Fábio Sebastian Corrêa Marques: HTML.
+
+João Pedro da Rosa: HTML.
+
+Gabriel Vicente Ziele: HTML.
+
+Davi de Oliveira Fernandes: CSS.
+
