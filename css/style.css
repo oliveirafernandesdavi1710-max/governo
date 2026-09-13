@@ -31,10 +31,10 @@ h6{
 }
 
 p {
-  font-family: "Cinzel", serif;
-  font-weight: 200;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 100;
   font-style: normal;
-  font-size: 3vw;
+  font-size: 2.8vw;
 }
 
 header {
@@ -169,6 +169,7 @@ body.plebe img {
 
 body.escravos {
   background-color: #F6E3CF;
+  text-align: center;
 }
 
 body.escravos h1{
@@ -182,6 +183,7 @@ body.escravos img {
 }
 body.escravos h2 {
   font-style: normal;
+  padding: 2vw;
 }
 body.escravos section.texto {
   text-align: left;
@@ -192,6 +194,10 @@ body.escravos section.texto {
   border-radius: 10px;
 }
 
+body.escravos section.texto p {
+  padding: 1.5vw;
+  font-size: 2.5vw;
+}
 
 
 /* === Quiz === */
