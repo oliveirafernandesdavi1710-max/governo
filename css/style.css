@@ -300,9 +300,8 @@ body.homens img {
 body.homens h2 {
   font-style: normal;
 }
-body.homens section.texto {
-  text-align: left;
-  background-color: #F0B478; 
+body.homens section.explicacao {
+  text-align: center;  
   background-size: cover;
   padding: 2vw;
   margin: 2vw 5vw;
