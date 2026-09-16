@@ -419,14 +419,29 @@ Data:
 
 Assunto:
 
-idk
+Programação em HTML e CSS.
 
 
 Ausentes:
 
-Sem ausentes.
+ninguem
+
+Notas:
+
+João Pedro da Rosa não fez a tarefa que lhe foi pedida nas reuniões anteriores.
 
 
 Divisão de tarefas:
 
-aaaa
+Matheus Araújo dos Santos: HTML.
+
+Fábio Sebastian Corrêa Marques: JS(javascript).
+
+João Pedro da Rosa: HTML.
+
+Gabriel Vicente Ziele: HTML.
+
+Davi de Oliveira Fernandes: HTML.
+
+Rian Luka Gazziero da Rosa: JS(javascript).
+
