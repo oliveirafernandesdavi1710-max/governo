@@ -350,8 +350,6 @@ Programação em HTML e CSS.
 
 Ausentes:
 
-
-
 Rian Luka Gazziero da Rosa.
 
 
@@ -377,14 +375,17 @@ Davi de Oliveira Fernandes: CSS.
 ---
 # Ata 13
 
+Data:
+
+09/09/2026
+
+
 Assunto:
 
 Programação em HTML e CSS.
 
 
 Ausentes:
-
-
 
 Rian Luka Gazziero da Rosa.
 
@@ -406,3 +407,26 @@ Gabriel Vicente Ziele: HTML.
 
 Davi de Oliveira Fernandes: CSS.
 
+
+
+---
+# Ata 14
+
+Data:
+
+16/09/2026
+
+
+Assunto:
+
+idk
+
+
+Ausentes:
+
+Sem ausentes.
+
+
+Divisão de tarefas:
+
+aaaa
