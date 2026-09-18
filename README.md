@@ -225,6 +225,7 @@ Ausentes:
 
 Rian Luka Gazziero da Rosa. (Sem justificativa)
 
+
 Divisão de tarefas:
 
 Gabriel Vicente Ziele: HTML.
@@ -419,29 +420,10 @@ Data:
 
 Assunto:
 
-Programação em HTML e CSS.
+Revisão de arquivos.
 
 
 Ausentes:
 
-ninguem
-
-Notas:
-
-João Pedro da Rosa não fez a tarefa que lhe foi pedida nas reuniões anteriores.
-
-
-Divisão de tarefas:
-
-Matheus Araújo dos Santos: HTML.
-
-Fábio Sebastian Corrêa Marques: JS(javascript).
-
-João Pedro da Rosa: HTML.
-
-Gabriel Vicente Ziele: HTML.
-
-Davi de Oliveira Fernandes: HTML.
-
-Rian Luka Gazziero da Rosa: JS(javascript).
+Sem ausentes
 
