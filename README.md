@@ -427,3 +427,21 @@ Ausentes:
 
 Sem ausentes
 
+
+
+---
+# Ata 15
+
+Data:
+
+18/09/2026
+
+
+Assunto:
+
+Revisão de arquivos.
+
+
+Ausentes:
+
+Sem ausentes
