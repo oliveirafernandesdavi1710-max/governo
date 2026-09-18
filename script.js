@@ -1,75 +1,82 @@
-/* Falta colocar algumas coisas ainda. Tipo as oerguntas e as respostas corretas. */
+const perguntas = [
+  {
+    pergunta: "Quanto é 2 + 2?",
+    respostas: [
+      { texto: "3", correto: false },
+      { texto: "4", correto: true },
+      { texto: "5", correto: false }
+    ]
+  },
+  {
+    pergunta: "Qual a cor do céu?",
+    respostas: [
+      { texto: "Azul", correto: true },
+      { texto: "Verde", correto: false },
+      { texto: "Vermelho", correto: false }
+    ]
+  }
+];
 
-let um;
-let dois;
-let tres;
-let quatro;
-let cinco;
-let seis;
+let indiceAtual = 0;
+let pontuacao = 0;
 
+const elPergunta = document.getElementById("pergunta");
+const elRespostas = document.getElementById("respostas-container");
+const elProximo = document.getElementById("proximo");
+const elResultado = document.getElementById("resultado");
 
-let p1 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
+function carregarPergunta() {
+  limparRespostas();
+  let atual = perguntas[indiceAtual];
+  elPergunta.innerText = atual.pergunta;
 
-if (p1 == 'C') {
-    um = 1;
-    alert(`Você acertou.`);
-} else {
-    um = 0;
-    alert(`Você errou.`);
+  atual.respostas.forEach(resp => {
+    const botao = document.createElement("button");
+    botao.innerText = resp.texto;
+    botao.classList.add("btn");
+    if (resp.correto) {
+      botao.dataset.correto = resp.correto;
+    }
+    botao.addEventListener("click", selecionarResposta);
+    elRespostas.appendChild(botao);
+  });
 }
 
-let p2 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
-
-if (p2 == 'A') {
-    dois = 1;
-    alert(`Você acertou.`);
-} else {
-    dois = 0;
-    alert(`Você errou.`);
+function limparRespostas() {
+  elProximo.style.display = "none";
+  while (elRespostas.firstChild) {
+    elRespostas.removeChild(elRespostas.firstChild);
+  }
 }
 
-let p3 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
+function selecionarResposta(e) {
+  const botaoSelecionado = e.target;
+  const estaCorreto = botaoSelecionado.dataset.correto === "true";
 
-if (p3 == 'C') {
-    tres = 1;
-    alert(`Você acertou.`);
-} else {
-    tres = 0;
-    alert(`Você errou.`);
+  if (estaCorreto) {
+    pontuacao++;
+    botaoSelecionado.style.backgroundColor = "green";
+  } else {
+    botaoSelecionado.style.backgroundColor = "red";
+  }
+
+  Array.from(elRespostas.children).forEach(botao => {
+    if (botao.dataset.correto === "true") {
+      botao.style.backgroundColor = "green";
+    }
+    botao.disabled = true;
+  });
+
+  if (perguntas.length > indiceAtual + 1) {
+    elProximo.style.display = "block";
+  } else {
+    elResultado.innerText = `Fim de jogo! Você acertou ${pontuacao} de ${perguntas.length} perguntas.`;
+  }
 }
 
-let p4 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
+elProximo.addEventListener("click", () => {
+  indiceAtual++;
+  carregarPergunta();
+});
 
-if (p4 == 'D') {
-    quatro = 1;
-    alert(`Você acertou.`);
-} else {
-    quatro = 0;
-    alert(`Você errou.`);
-}
-
-let p5 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
-
-if (p5 == 'B') {
-    cinco = 1;
-    alert(`Você acertou.`);
-} else {
-    cinco = 0;
-    alert(`Você errou.`);
-}
-
-let p6 = prompt("Para a pergunta ... Qual a resposta?").toUpperCase();
-
-if (p6 == 'A') {
-    seis = 1;
-    alert(`Você acertou.`);
-} else {
-    seis = 0;
-    alert(`Você errou.`);
-}
-
-
-
-let resultado = um + dois + tres + quatro + cinco + seis;
-
-alert(`Vocé acertou ${resultado} de 6 perguntas`);
+carregarPergunta();
