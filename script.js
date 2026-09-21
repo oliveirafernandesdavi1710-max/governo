@@ -1,3 +1,24 @@
+// Seleciona todos os botões de alternativa
+const botoes = document.querySelectorAll(".alternativa");
+
+// Adiciona o evento de clique em cada um deles
+botoes.forEach(botao => {
+    botao.addEventListener("click", function() {
+        // Verifica o atributo data-correta do botão clicado
+        const ehCorreta = this.getAttribute("data-correta") === "true";
+        
+        if (ehCorreta) {
+            alert("Parabéns, você acertou! 🎉");
+            this.style.backgroundColor = "green"; // Fica verde
+        } else {
+            alert("Resposta errada! ❌");
+            this.style.backgroundColor = "red"; // Fica vermelho
+        }
+    });
+});
+
+
+/*
 const perguntas = [
   {
     pergunta: "Quanto é 2 + 2?",
@@ -42,12 +63,6 @@ function carregarPergunta() {
   });
 }
 
-function limparRespostas() {
-  elProximo.style.display = "none";
-  while (elRespostas.firstChild) {
-    elRespostas.removeChild(elRespostas.firstChild);
-  }
-}
 
 function selecionarResposta(e) {
   const botaoSelecionado = e.target;
@@ -80,3 +95,7 @@ elProximo.addEventListener("click", () => {
 });
 
 carregarPergunta();
+
+
+alert(`Você acertou `)
+*/

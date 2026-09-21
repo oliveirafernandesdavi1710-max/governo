@@ -429,6 +429,14 @@ img.quiz{
   background-size: cover;
 }
 
+section.quiz img{
+  padding: 0 3vw 5vw 3vw ;
+}
+
+section.quiz h2{
+  padding: 3vw 0 5vw 0;
+}
+
 section.quiz{
     background-color: #F0B478;
     padding: 5vw 0 5vw 0;
@@ -449,12 +457,13 @@ section.perguntas div{
 
 }
 
-section.perguntas div p{
+section.perguntas div button{
     background-color: #A8600F;
     margin: 1vw ;
     border-radius: 10vw;
     color: white;
     padding: 2vw 18vw 2vw 18vw ;
+    flex-wrap: wrap;
 
 }
 
