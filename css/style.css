@@ -27,14 +27,14 @@ h5{
 }
 
 h6{
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
 
 p {
   font-family: "Libre Baskerville", serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 2.8vw;
+  font-size: 3vw;
 }
 
 header {
@@ -76,22 +76,20 @@ main {
   flex: 1; /* Empurra o footer para baixo preenchendo o espaço */
 }
 
-section.explicacao div {
+section.explicacao {
   text-align: left;
   background-color: #F0B478; 
   background-size: cover;
-  padding: 2vw;
-  margin: 2vw 5vw;
-  border-radius: 10px;
+  padding: 1vw;
+  margin: 2vw;
+  border-radius: 2vw;
 }
 
-section.explicacao h2 {
-  text-align: center;
-  background-color: #F0B478; 
-  background-size: cover;
-  padding: 2vw;
-  margin: 2vw 5vw;
-  border-radius: 10px;
+section.explicacao div {
+  text-align: left;
+  padding: 1vw;
+  margin: 2vw;
+  border-radius: 2vw;
 }
 
 footer {
@@ -108,7 +106,6 @@ footer div{
   display: flex;
   justify-content: space-between;
 }
-
 
 
 /* === Início === */
@@ -139,65 +136,277 @@ section.piramide h2{
 
 
 
+/* === Imperador === */
+
+body.imperador {
+  text-align: center;
+  background-color: #F0B4789F;
+  background-image: url("/img/julio acabate (pássaro).jpg");
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+body.imperador main{
+  margin: 2vw;
+}
+
+body.imperador h1 {
+  text-align: center;
+  background-color: #F0B478;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+}
+
+body.imperador img {
+  width: 50%;
+  height: auto;
+  border-radius: 6vw;
+  padding: 2vw;
+}
+
+body.imperador section.explicacao{
+  text-align: center;  
+  background-size: cover;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+}
+
+
+
+/* === Senadores === */
+
+body.senadores {
+  text-align: center;
+  background-color: #F0B4787F;
+  background-image: url("/img/senadores.jpg");
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+body.senadores main{
+  margin: 2vw;
+}
+
+body.senadores h1 {
+  text-align: center;
+  background-color: #F0B478;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+}
+
+body.senadores img {
+  width: 50%;
+  height: auto;
+  border-radius: 6vw;
+  padding: 2vw;
+}
+
+body.senadores section.explicacao{
+  text-align: center;  
+  background-size: cover;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+}
+
+
+
+/* === Patricios === */
+
+body.patricios {
+  text-align: center;
+  background-color: #F0B4789F;
+  background-image: url("/img/patricio.jpg");
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+body.patricios main{
+  margin: 2vw;
+}
+
+body.patricios h1 {
+  text-align: center;
+  background-color: #F0B478;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+}
+
+body.patricios img {
+  width: 50%;
+  height: auto;
+  border-radius: 6vw;
+  padding: 2vw;
+}
+
+body.patricios section.explicacao{
+  text-align: center;  
+  background-size: cover;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+}
+
+
+
 /* === Plebe === */
 
 body.plebe {
   text-align: center;
-  background-color: #F0B478; /*filtro*/
-  background-image: url("../img/fundo_plebe.jpg");
+  background-color: #F0B4785F;
+  background-image: url("/img/plebe.png");
   background-size: cover;
+  background-blend-mode: screen;
+}
+
+body.plebe main{
+  margin: 2vw;
 }
 
 body.plebe h1 {
-  padding: 3vw 0 5vw;
-}
-
-body.plebe h2 {
-  font-style: normal;
-  /*padding: ;*/
+  text-align: center;
+  background-color: #F0B478;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
 }
 
 body.plebe img {
   width: 50%;
   height: auto;
-  border-radius: 30px;
+  border-radius: 6vw;
   padding: 2vw;
 }
+
+body.plebe section.explicacao{
+  text-align: center;  
+  background-size: cover;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+}
+
+
+
+/* === Homens Livres === */
+
+body.homens-livres {
+  text-align: center;
+  background-color: #F0B4785F;
+  background-image: url("/img/.jpg");
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+body.homens-livres main{
+  margin: 2vw;
+}
+
+body.homens-livres h1 {
+  text-align: center;
+  background-color: #F0B478;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+}
+
+body.homens-livres img {
+  width: 50%;
+  height: auto;
+  border-radius: 6vw;
+  padding: 2vw;
+}
+
+body.homens-livres section.explicacao{
+  text-align: center;  
+  background-size: cover;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+}
+
+
+
+/* === Libertos === */
+
+body.libertos {
+  text-align: center;
+  background-color: #F0B4787F;
+  background-image: url("/img/liberto.jpg");
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+body.libertos main{
+  margin: 2vw;
+}
+
+body.libertos h1 {
+  text-align: center;
+  background-color: #F0B478;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+}
+
+body.libertos img {
+  width: 50%;
+  height: auto;
+  border-radius: 6vw;
+  padding: 2vw;
+}
+
+body.libertos section.explicacao{
+  text-align: center;  
+  background-size: cover;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+}
+
 
 
 /* === Escravos === */
 
 body.escravos {
-  background-color: #F6E3CF;
   text-align: center;
+  background-color: #F0B4787F;
+  background-image: url("/img/escravos.jpg");
+  background-size: cover;
+  background-blend-mode: screen;
 }
 
-body.escravos h1{
-  padding: 3vw 0 5vw;
+body.homens-livres main{
+  margin: 2vw;
 }
+
+body.escravos h1 {
+  text-align: center;
+  background-color: #F0B478;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+}
+
 body.escravos img {
   width: 50%;
   height: auto;
-  border-radius: 30px;
+  border-radius: 6vw;
   padding: 2vw;
-}
-body.escravos h2 {
-  font-style: normal;
-  padding: 2vw;
-}
-body.escravos section.texto {
-  text-align: left;
-  background-color: #F0B478; 
-  background-size: cover;
-  padding: 2vw;
-  margin: 2vw 5vw;
-  border-radius: 10px;
 }
 
-body.escravos section.texto p {
-  padding: 1.5vw;
-  font-size: 2.5vw;
+body.escravos section.explicacao{
+  text-align: center;  
+  background-size: cover;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
 }
+
 
 
 /* === Quiz === */
@@ -257,6 +466,8 @@ section.perguntas p{
     padding: 0vw 18vw;
 }
 
+
+
 /* === Criadores === */
 
 body.criadores{
@@ -280,30 +491,4 @@ body.criadores img{
 
 body.criadores section{
   padding: 3vw;
-}
-
-/* === Homens livres === */
-
-body.homens {
-  background-color: #F6E3CF;
-}
-
-body.homens h1{
-  padding: 3vw 0 5vw;
-}
-body.homens img {
-  width: 50%;
-  height: auto;
-  border-radius: 30px;
-  padding: 2vw;
-}
-body.homens h2 {
-  font-style: normal;
-}
-body.homens section.explicacao {
-  text-align: center;  
-  background-size: cover;
-  padding: 2vw;
-  margin: 2vw 5vw;
-  border-radius: 10px;
 }
