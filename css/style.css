@@ -11,27 +11,27 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{
-  font-size: 4.5rem;
-}
-
-h2{
-  font-size: 4rem;
-}
-
-h3{
-  font-size: 3.5rem;
-}
-
-h4{
   font-size: 3rem;
 }
 
-h5{
+h2{
+  font-size: 2.75rem;
+}
+
+h3{
   font-size: 2.5rem;
 }
 
-h6{
+h4{
+  font-size: 2.25rem;
+}
+
+h5{
   font-size: 2rem;
+}
+
+h6{
+  font-size: 1.75rem;
 }
 
 p {
@@ -118,26 +118,45 @@ body.inicio section{
     background-color: #F6E3CF;
 }
 
-section.banner{
+body.inicio section.banner{
     display: flex;
     padding: 2vw 2vw;
     gap: 4vw;padding: 2vw 2vw;
 }
 
-section.banner h1{
+body.inicio section.banner img{
+  height: 40vw;
+}
+
+body.inicio section.banner h1{
     padding: 3vw 0 3vw 0;
 }
 
-section.banner p{
+body.inicio section.banner p{
     padding: 3vw 0 3vw 0;    
 }
 
-section.piramide h2{
+body.inicio section.piramide h2{
     text-align: center;
     padding: 3vw 0 3vw 0;    
 
 }
 
+body.inicio section.assuntos{
+  text-align: center;
+  align-items: center;
+}
+
+body.inicio section.assuntos img{
+  width: 35vw ;
+}
+
+body.inicio section.assuntos div ul{
+  padding: 11vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3vw;
+}
 
 
 /* === Imperador === */
@@ -415,12 +434,61 @@ body.escravos section.explicacao{
 
 /* === Quiz === */
 
+body.quiz {
+  text-align: center;
+  background-color: #F0B4789F;
+  background-image: url("/img/filosofo (quiz).jpg");
+  background-size: cover;
+  background-blend-mode: screen;
+}
+
+body.quiz main{
+  margin: 2vw;
+}
+
+body.quiz h1 {
+  text-align: center;
+  background-color: #F0B478;
+  padding: 2vw 1vw 2vw 1vw ;
+  margin: 1.5vw 0 0 0 ;
+  border-radius: 2vw;
+  font-size: 3rem;
+}
+
+body.quiz img {
+  width: 50%;
+  height: auto;
+  border-radius: 6vw;
+  padding: 2vw;
+}
+
+body.quiz section.banner{
+  text-align: center;  
+  background-size: cover;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+  display: inline-block;
+}
+
+body.quiz section.quiz2{
+  text-align: center;  
+  background-size: cover;
+  padding: 2vw;
+  margin: 3vw;
+  border-radius: 2vw;
+  display: inline-block;
+}
+
+section.quiz2{
+  background-color: #F0B478;
+}
+
 .card-pergunta {
-  background: white;
+  background: #F0B478;
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
 }
 
 .enunciado {
@@ -439,11 +507,10 @@ body.escravos section.explicacao{
 .opcao-label {
   display: flex;
   align-items: center;
-  color: #333333;
-  background-color: #ffffff;
+  color: white;
+  background-color: #a8600f ;
   gap: 2vw;
   padding: 2vw;
-  border: 0.5vw solid #dddddd;
   border-radius: 20vw;
   cursor: pointer;
   transition: background 0.25s;
