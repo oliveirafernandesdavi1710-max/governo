@@ -1,101 +1,154 @@
-// Seleciona todos os botões de alternativa
-const botoes = document.querySelectorAll(".alternativa");
-
-// Adiciona o evento de clique em cada um deles
-botoes.forEach(botao => {
-    botao.addEventListener("click", function() {
-        // Verifica o atributo data-correta do botão clicado
-        const ehCorreta = this.getAttribute("data-correta") === "true";
-        
-        if (ehCorreta) {
-            alert("Parabéns, você acertou! 🎉");
-            this.style.backgroundColor = "green"; // Fica verde
-        } else {
-            alert("Resposta errada! ❌");
-            this.style.backgroundColor = "red"; // Fica vermelho
-        }
-    });
-});
-
-
-/*
-const perguntas = [
+// 1. Base de dados das perguntas com variações dinâmicas
+const totalPerguntas = 2;
+const bancoDePerguntas = [
   {
-    pergunta: "Quanto é 2 + 2?",
-    respostas: [
-      { texto: "3", correto: false },
-      { texto: "4", correto: true },
-      { texto: "5", correto: false }
-    ]
+    id: "p1",
+    // Opções de enunciado para escolher uma aleatoriamente
+    enunciados: [
+      "Qual a diferença de um homem livre para um liberto?",
+    ],
+    // Lista de possíveis alternativas
+    alternativasDisponiveis: [
+      { texto: "Os libertos não possuíam bens materiais.", correta: false },
+      { texto: "Os libertos eram ex soldados de guerra que foram liberados do campo de batalha.", correta: false },
+      { texto: "Os nomes são sinonimos e não possuem nenhuma diferença de um ao outro.", correta: false },
+      { texto: "Os libertos eram ex escravos que adquiriram liberdade com pecúlio ou por bom desempenho no trabalho.", correta: true },
+    ],
+    // Quantidade de botões/alternativas que devem aparecer nesta pergunta
+    qtdAlternativasExibir: 3,
   },
   {
-    pergunta: "Qual a cor do céu?",
-    respostas: [
-      { texto: "Azul", correto: true },
-      { texto: "Verde", correto: false },
-      { texto: "Vermelho", correto: false }
-    ]
-  }
+    id: "p2",
+    enunciados: [
+      "O que é um questor?",
+    ],
+    alternativasDisponiveis: [
+      { texto: "Uma função que atua como oficial de guerra", correta: true },
+      { texto: "A função mais alta do cursus honorum, feita para seguir mandatos de um ano.", correta: false },
+      { texto: "É uma função comum que servia para coleta de impostos e criação de algumas leis.", correta: false },
+      { texto: "É uma função administrativa ocupada por senadores feita para administrar o povo.", correta: false },
+    ],
+    qtdAlternativasExibir: 4,
+  },
+  {
+    id: "p3",
+    enunciados: ["Como surgiu a plebe?"],
+    alternativasDisponiveis: [
+      { texto: "A plebe surgiu a partir de estrangeiros escravizados que foram trazidos para Roma.", correta: true },
+      { texto: "A plebe surgiu logo após a abolição da escravidão em Roma, quando todos os antigos escravos receberam terras do governo e o direito de votar. ", correta: false },
+      { texto: "A classe dos plebeus foi criada por um decreto do primeiro rei de Roma, Rômulo, para dividir oficialmente os cidadãos mais ricos dos mais pobres.", correta: false },
+      { texto: "Acredita-se que foi composta por povos conquistados, antigos clientes e estrangeiros protegidos pelo Estado. Durante a Monarquia Romana.", correta: false },
+    ],
+    qtdAlternativasExibir: 4,
+  },
 ];
 
-let indiceAtual = 0;
-let pontuacao = 0;
+// Função utilitária para embaralhar um array (Algoritmo de Fisher-Yates)
+function embaralhar(array) {
+  const copia = [...array];
+  for (let i = copia.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copia[i], copia[j]] = [copia[j], copia[i]];
+  }
+  return copia;
+}
 
-const elPergunta = document.getElementById("pergunta");
-const elRespostas = document.getElementById("respostas-container");
-const elProximo = document.getElementById("proximo");
-const elResultado = document.getElementById("resultado");
+// Retorna um elemento aleatório de um array
+function sortearItem(array) {
+  return array[Math.floor(Math.random() * array.length)];
+}
 
-function carregarPergunta() {
-  limparRespostas();
-  let atual = perguntas[indiceAtual];
-  elPergunta.innerText = atual.pergunta;
+// Armazena o ID da opção correta de cada pergunta renderizada
+const respostasCorretas = {};
 
-  atual.respostas.forEach(resp => {
-    const botao = document.createElement("button");
-    botao.innerText = resp.texto;
-    botao.classList.add("btn");
-    if (resp.correto) {
-      botao.dataset.correto = resp.correto;
-    }
-    botao.addEventListener("click", selecionarResposta);
-    elRespostas.appendChild(botao);
+// 2. Renderizar o formulário
+function gerarQuiz() {
+  const container = document.getElementById("quiz-container");
+  container.innerHTML = "";
+
+  // Randomiza a ordem das perguntas no formulário
+  const perguntasEmbaralhadas = embaralhar(bancoDePerguntas).slice(0, totalPerguntas);
+  totalPerguntasExibidas = perguntasEmbaralhadas.length;
+
+  perguntasEmbaralhadas.forEach((pergunta, index) => {
+    // A. Sorteia o enunciado
+    const enunciadoSorteado = sortearItem(pergunta.enunciados);
+
+    // B. Garante que a opção correta esteja sempre presente
+    const opcaoCorreta = pergunta.alternativasDisponiveis.find(
+      (alt) => alt.correta
+    );
+    const opcoesIncorretas = pergunta.alternativasDisponiveis.filter(
+      (alt) => !alt.correta
+    );
+
+    // Embaralha as incorretas e pega a quantidade necessária
+    const incorretasSorteadas = embaralhar(opcoesIncorretas).slice(
+      0,
+      pergunta.qtdAlternativasExibir - 1
+    );
+
+    // Junta a correta com as incorretas sorteadas e embaralha tudo
+    const alternativasFinais = embaralhar([
+      opcaoCorreta,
+      ...incorretasSorteadas,
+    ]);
+
+    // Guarda qual texto era o correto para a validação final
+    respostasCorretas[pergunta.id] = opcaoCorreta.texto;
+
+    // C. Cria os elementos HTML da pergunta
+    const card = document.createElement("div");
+    card.className = "card-pergunta";
+
+    const titulo = document.createElement("div");
+    titulo.className = "enunciado";
+    titulo.textContent = `${index + 1}. ${enunciadoSorteado}`;
+    card.appendChild(titulo);
+
+    const opcoesDiv = document.createElement("div");
+    opcoesDiv.className = "alternativas-container";
+
+    alternativasFinais.forEach((alt, altIndex) => {
+      const idInput = `${pergunta.id}_opt_${altIndex}`;
+
+      const label = document.createElement("label");
+      label.className = "opcao-label";
+
+      const input = document.createElement("input");
+      input.type = "radio";
+      input.name = pergunta.id;
+      input.value = alt.texto;
+      input.required = true;
+      input.id = idInput;
+
+      label.appendChild(input);
+      label.appendChild(document.createTextNode(alt.texto));
+      opcoesDiv.appendChild(label);
+    });
+
+    card.appendChild(opcoesDiv);
+    container.appendChild(card);
   });
 }
 
+// 3. Processar envio e calcular pontuação
+document.getElementById("quiz-form").addEventListener("submit", function (e) {
+  e.preventDefault();
 
-function selecionarResposta(e) {
-  const botaoSelecionado = e.target;
-  const estaCorreto = botaoSelecionado.dataset.correto === "true";
+  const formData = new FormData(this);
+  let acertos = 0;
 
-  if (estaCorreto) {
-    pontuacao++;
-    botaoSelecionado.style.backgroundColor = "green";
-  } else {
-    botaoSelecionado.style.backgroundColor = "red";
-  }
-
-  Array.from(elRespostas.children).forEach(botao => {
-    if (botao.dataset.correto === "true") {
-      botao.style.backgroundColor = "green";
+  for (let [perguntaId, respostaSelecionada] of formData.entries()) {
+    if (respostasCorretas[perguntaId] === respostaSelecionada) {
+      acertos++;
     }
-    botao.disabled = true;
-  });
-
-  if (perguntas.length > indiceAtual + 1) {
-    elProximo.style.display = "block";
-  } else {
-    elResultado.innerText = `Fim de jogo! Você acertou ${pontuacao} de ${perguntas.length} perguntas.`;
   }
-}
 
-elProximo.addEventListener("click", () => {
-  indiceAtual++;
-  carregarPergunta();
+  document.getElementById(
+    "resultado"
+  ).textContent = `Você acertou ${acertos} de ${totalPerguntas} perguntas!`;
 });
 
-carregarPergunta();
-
-
-alert(`Você acertou `)
-*/
+// Inicia o quiz ao carregar a página
+gerarQuiz();
