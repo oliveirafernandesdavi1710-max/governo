@@ -1,11 +1,11 @@
 // 1. Base de dados das perguntas com variações dinâmicas
-const totalPerguntas = 2;
+const totalPerguntas = 5;
 const bancoDePerguntas = [
   {
     id: "p1",
     // Opções de enunciado para escolher uma aleatoriamente
     enunciados: [
-      "Qual a diferença de um homem livre para um liberto?",
+      "Qual a diferença de um plebeu para um liberto?",
     ],
     // Lista de possíveis alternativas
     alternativasDisponiveis: [
