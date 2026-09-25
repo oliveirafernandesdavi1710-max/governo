@@ -41,6 +41,15 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
   },
+  {
+    id: "p4",
+    enunciados: ["Os imperadores romanos eram absolutos."],
+    alternativasDisponiveis: [
+      { texto: "Sim", correta: false },
+      { texto: "Não", correta: true },
+    ],
+    qtdAlternativasExibir: 2,
+  },
 ];
 
 // Função utilitária para embaralhar um array (Algoritmo de Fisher-Yates)
