@@ -11,34 +11,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1{
-  font-size: 3rem;
+  font-size: 6.5vw;
 }
 
 h2{
-  font-size: 2.75rem;
+  font-size: 6vw;
 }
 
 h3{
-  font-size: 2.5rem;
+  font-size: 5.5vw;
 }
 
 h4{
-  font-size: 2.25rem;
+  font-size: 5vw;
 }
 
 h5{
-  font-size: 2rem;
+  font-size: 4.5vw;
 }
 
 h6{
-  font-size: 1.75rem;
+  font-size: 4vw;
 }
 
 p {
   font-family: "Libre Baskerville", serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 1.5rem;
+  font-size: 3vw;
 }
 
 header {
@@ -50,7 +50,7 @@ header {
 
 header nav ul {
   display: flex;
-  gap: 16px;
+  gap: 1.6vw;
 }
 
 header a {
@@ -164,9 +164,12 @@ body.inicio section.assuntos div ul{
 body.imperador {
   text-align: center;
   background-color: #F0B4789F;
-  background-image: url("/img/julio acabate (pássaro).jpg");
+  background-image: url("../img/planos-de-fundo/julio\ acabate\ \(pássaro\).png");
   background-size: cover;
   background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 100%;
 }
 
 body.imperador main{
@@ -203,9 +206,12 @@ body.imperador section.explicacao{
 body.senadores {
   text-align: center;
   background-color: #F0B4787F;
-  background-image: url("/img/senadores.jpg");
+  background-image: url("../img/planos-de-fundo/senadores.png");
   background-size: cover;
   background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 100%;
 }
 
 body.senadores main{
@@ -242,9 +248,12 @@ body.senadores section.explicacao{
 body.patricios {
   text-align: center;
   background-color: #F0B4789F;
-  background-image: url("/img/patricio.jpg");
+  background-image: url("../img/planos-de-fundo/patricio.png");
   background-size: cover;
   background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 100%;
 }
 
 body.patricios main{
@@ -281,9 +290,12 @@ body.patricios section.explicacao{
 body.plebe {
   text-align: center;
   background-color: #F0B4785F;
-  background-image: url("/img/plebe.png");
+  background-image: url("../img/planos-de-fundo/plebe.png");
   background-size: cover;
   background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 100%;
 }
 
 body.plebe main{
@@ -320,9 +332,12 @@ body.plebe section.explicacao{
 body.homens-livres {
   text-align: center;
   background-color: #F0B4785F;
-  background-image: url("/img/.jpg");
+  background-image: url("../img/planos-de-fundo/");
   background-size: cover;
   background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 100%;
 }
 
 body.homens-livres main{
@@ -359,9 +374,12 @@ body.homens-livres section.explicacao{
 body.libertos {
   text-align: center;
   background-color: #F0B4787F;
-  background-image: url("/img/liberto.jpg");
+  background-image: url("../img/planos-de-fundo/liberto.png");
   background-size: cover;
   background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 100%;
 }
 
 body.libertos main{
@@ -398,9 +416,12 @@ body.libertos section.explicacao{
 body.escravos {
   text-align: center;
   background-color: #F0B4787F;
-  background-image: url("/img/escravos.jpg");
+  background-image: url("../img/planos-de-fundo/escravos.png");
   background-size: cover;
   background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 100%;
 }
 
 body.homens-livres main{
@@ -437,9 +458,12 @@ body.escravos section.explicacao{
 body.quiz {
   text-align: center;
   background-color: #F0B4789F;
-  background-image: url("/img/filosofo (quiz).jpg");
+  background-image: url("../img/planos-de-fundo/filosofo\ \(quiz\).png");
   background-size: cover;
   background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 100%;
 }
 
 body.quiz main{
