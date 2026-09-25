@@ -445,3 +445,22 @@ Revisão de arquivos.
 Ausentes:
 
 Sem ausentes
+
+
+
+---
+# Ata 16
+
+Data:
+
+22/09/2026
+
+
+Assunto:
+
+Revisão de arquivos.
+
+
+Ausentes:
+
+Gabriel Vicente Ziele (Problemas familiares)
