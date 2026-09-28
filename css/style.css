@@ -98,6 +98,7 @@ section.banner-assuntos div {
   border-radius: 2vw;
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 section.explicacao {
@@ -145,10 +146,12 @@ body.inicio section.banner {
   padding: 2vw 2vw;
   gap: 4vw;
   padding: 2vw 2vw;
+  align-items: center;
 }
 
 body.inicio section.banner img {
   height: 40vw;
+  border-radius: 2vw;
 }
 
 body.inicio section.banner h1 {
@@ -159,9 +162,17 @@ body.inicio section.banner p {
   padding: 3vw 0 3vw 0;
 }
 
+body.inicio section.piramide{
+  text-align: center;
+}
+
 body.inicio section.piramide h2 {
   text-align: center;
   padding: 3vw 0 3vw 0;
+}
+
+body.inicio section.piramide img {
+  height: 75vw;
 }
 
 body.inicio section.assuntos {
@@ -221,8 +232,8 @@ body.inicio section.assuntos div ul li.plebe {
 }
 
 body.inicio section.assuntos div ul li.homens-livres {
-  background-image: url(../img/planos-de-fundo/);
-  background-position: 0;
+  background-image: url(../img/planos-de-fundo/homens-livres.jpg);
+  background-position: 50% 0;
   background-color: #0000005f;
 }
 
@@ -393,7 +404,7 @@ body.plebe section.explicacao {
 body.homens-livres {
   text-align: center;
   background-color: #f0b4785f;
-  background-image: url("../img/planos-de-fundo/");
+  background-image: url("../img/planos-de-fundo/homens-livres.jpg");
   background-size: cover;
   background-blend-mode: screen;
   background-repeat: no-repeat;
@@ -413,7 +424,7 @@ body.homens-livres h1 {
 }
 
 body.homens-livres section.banner-assuntos div {
-  background-image: url("../img/h");
+  background-image: url("../img/homens-livres.png");
   background-position: 0 50%;
 }
 
