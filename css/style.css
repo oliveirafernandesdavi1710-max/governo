@@ -1,36 +1,41 @@
 /* === Geral === */
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Cinzel Decorative", serif;
   font-weight: 500;
   font-style: normal;
 }
 
-h1{
+h1 {
   font-size: 6.5vw;
 }
 
-h2{
+h2 {
   font-size: 6vw;
 }
 
-h3{
+h3 {
   font-size: 5.5vw;
 }
 
-h4{
+h4 {
   font-size: 5vw;
 }
 
-h5{
+h5 {
   font-size: 4.5vw;
 }
 
-h6{
+h6 {
   font-size: 4vw;
 }
 
@@ -41,11 +46,20 @@ p {
   font-size: 3vw;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
-  background-color: #B45A2D;
+  background-color: #a8600f;
   display: flex;
   justify-content: space-between;
-  padding: 1.5vw;
+  padding: 2vw;
+  align-items: center;
+}
+
+header img {
+  width: 5vw;
 }
 
 header nav ul {
@@ -57,15 +71,12 @@ header a {
   color: black;
 }
 
-header.ft-lil h1 {
-  padding: 3vw 0 3vw
+header div {
+  display: flex;
 }
 
-header.header div{
-display: flex;
-}
-
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
@@ -80,90 +91,164 @@ main {
   flex: 1; /* Empurra o footer para baixo preenchendo o espaço */
 }
 
+section.banner-assuntos div {
+  width: 100%;
+  height: 50vw;
+  margin: 5vw 0;
+  border-radius: 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 section.explicacao {
   text-align: left;
-  background-color: #F0B478; 
+  background-color: #f0c8a0;
   background-size: cover;
   padding: 1vw;
-  margin: 2vw;
   border-radius: 2vw;
 }
 
 section.explicacao div {
   text-align: left;
   padding: 1vw;
-  margin: 2vw;
   border-radius: 2vw;
 }
 
 footer {
-  background-color: #F0C8A0;
+  background-color: #f0b478;
   text-align: left;
-  padding: 20px;
+  padding: 2vw;
 }
 
-footer h2{
+footer img{
+  width: 10vw;
+  padding-right: 1.5vw;
+}
+
+footer h2 {
   padding-top: 2vw;
 }
 
-footer div{
+footer div {
   display: flex;
   justify-content: space-between;
 }
 
-
 /* === Início === */
 
-body.inicio section{
-    background-color: #F6E3CF;
+body.inicio section {
+  background-color: #f6e3cf;
 }
 
-body.inicio section.banner{
-    display: flex;
-    padding: 2vw 2vw;
-    gap: 4vw;padding: 2vw 2vw;
+body.inicio section.banner {
+  display: flex;
+  padding: 2vw 2vw;
+  gap: 4vw;
+  padding: 2vw 2vw;
 }
 
-body.inicio section.banner img{
+body.inicio section.banner img {
   height: 40vw;
 }
 
-body.inicio section.banner h1{
-    padding: 3vw 0 3vw 0;
+body.inicio section.banner h1 {
+  padding: 3vw 0 3vw 0;
 }
 
-body.inicio section.banner p{
-    padding: 3vw 0 3vw 0;    
+body.inicio section.banner p {
+  padding: 3vw 0 3vw 0;
 }
 
-body.inicio section.piramide h2{
-    text-align: center;
-    padding: 3vw 0 3vw 0;    
-
+body.inicio section.piramide h2 {
+  text-align: center;
+  padding: 3vw 0 3vw 0;
 }
 
-body.inicio section.assuntos{
+body.inicio section.assuntos {
   text-align: center;
   align-items: center;
 }
 
-body.inicio section.assuntos img{
-  width: 35vw ;
+body.inicio section.assuntos img {
+  width: 35vw;
 }
 
-body.inicio section.assuntos div ul{
+body.inicio section.assuntos div ul {
   padding: 11vw;
   display: flex;
   flex-wrap: wrap;
+  grid-template-columns: 1fr 1fr;
   gap: 3vw;
 }
 
+body.inicio section.assuntos div ul li {
+  width: 35vw;
+  height: 35vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: color;
+  border-radius: 2vw;
+}
+
+body.inicio section.assuntos div ul li a h6 {
+  color: #ffffff;
+  padding: 50% 0;
+  line-height: 0%;
+}
+
+body.inicio section.assuntos div ul li.imperadores {
+  background-image: url(../img/planos-de-fundo/julio\ acabate\ \(pássaro\).png);
+  background-position: 0;
+  background-color: #0000005f;
+}
+
+body.inicio section.assuntos div ul li.senadores {
+  background-image: url(../img/planos-de-fundo/senadores.png);
+  background-position: 0;
+  background-color: #0000005f;
+}
+
+body.inicio section.assuntos div ul li.patricios {
+  background-image: url(../img/planos-de-fundo/patricio.png);
+  background-position: 0;
+  background-color: #0000005f;
+}
+
+body.inicio section.assuntos div ul li.plebe {
+  background-image: url(../img/planos-de-fundo/plebe.png);
+  background-position: 0;
+  background-color: #0000005f;
+}
+
+body.inicio section.assuntos div ul li.homens-livres {
+  background-image: url(../img/planos-de-fundo/);
+  background-position: 0;
+  background-color: #0000005f;
+}
+
+body.inicio section.assuntos div ul li.libertos {
+  background-image: url(../img/planos-de-fundo/liberto.png);
+  background-position: 0;
+  background-color: #0000005f;
+}
+
+body.inicio section.assuntos div ul li.escravos {
+  background-image: url(../img/planos-de-fundo/escravos.jpg);
+  background-position: 0;
+  background-color: #0000007f;
+}
+
+body.inicio section.assuntos div ul li.quiz {
+  background-image: url(../img/planos-de-fundo/filosofo\ \(quiz\).png);
+  background-position: 0;
+  background-color: #0000005f;
+}
 
 /* === Imperador === */
 
 body.imperador {
   text-align: center;
-  background-color: #F0B4789F;
+  background-color: #f0b4789f;
   background-image: url("../img/planos-de-fundo/julio\ acabate\ \(pássaro\).png");
   background-size: cover;
   background-blend-mode: screen;
@@ -172,40 +257,34 @@ body.imperador {
   background-position-y: 100%;
 }
 
-body.imperador main{
-  margin: 2vw;
+body.imperador main {
+  margin: 5vw;
 }
 
 body.imperador h1 {
   text-align: center;
-  background-color: #F0B478;
+  background-color: #f0c8a0;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
 
-body.imperador img {
-  width: 50%;
-  height: auto;
-  border-radius: 6vw;
-  padding: 2vw;
+body.imperador section.banner-assuntos div {
+  background-image: url("../img/julio\ acabate\ \(pássaro\).jpg");
+  background-position: 0 50%;
 }
 
-body.imperador section.explicacao{
-  text-align: center;  
+body.imperador section.explicacao {
+  text-align: center;
   background-size: cover;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
-
-
 
 /* === Senadores === */
 
 body.senadores {
   text-align: center;
-  background-color: #F0B4787F;
+  background-color: #f0b4787f;
   background-image: url("../img/planos-de-fundo/senadores.png");
   background-size: cover;
   background-blend-mode: screen;
@@ -214,40 +293,34 @@ body.senadores {
   background-position-y: 100%;
 }
 
-body.senadores main{
-  margin: 2vw;
+body.senadores main {
+  margin: 5vw;
 }
 
 body.senadores h1 {
   text-align: center;
-  background-color: #F0B478;
+  background-color: #f0c8a0;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
 
-body.senadores img {
-  width: 50%;
-  height: auto;
-  border-radius: 6vw;
-  padding: 2vw;
+body.senadores section.banner-assuntos div {
+  background-image: url("../img/senadores.jpg");
+  background-position: 0;
 }
 
-body.senadores section.explicacao{
-  text-align: center;  
+body.senadores section.explicacao {
+  text-align: center;
   background-size: cover;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
-
-
 
 /* === Patricios === */
 
 body.patricios {
   text-align: center;
-  background-color: #F0B4789F;
+  background-color: #f0b4789f;
   background-image: url("../img/planos-de-fundo/patricio.png");
   background-size: cover;
   background-blend-mode: screen;
@@ -256,40 +329,34 @@ body.patricios {
   background-position-y: 100%;
 }
 
-body.patricios main{
-  margin: 2vw;
+body.patricios main {
+  margin: 5vw;
 }
 
 body.patricios h1 {
   text-align: center;
-  background-color: #F0B478;
+  background-color: #f0c8a0;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
 
-body.patricios img {
-  width: 50%;
-  height: auto;
-  border-radius: 6vw;
-  padding: 2vw;
+body.patricios section.banner-assuntos div {
+  background-image: url("../img/patricio.jpg");
+  background-position: 0 10%;
 }
 
-body.patricios section.explicacao{
-  text-align: center;  
+body.patricios section.explicacao {
+  text-align: center;
   background-size: cover;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
-
-
 
 /* === Plebe === */
 
 body.plebe {
   text-align: center;
-  background-color: #F0B4785F;
+  background-color: #f0b4785f;
   background-image: url("../img/planos-de-fundo/plebe.png");
   background-size: cover;
   background-blend-mode: screen;
@@ -298,40 +365,34 @@ body.plebe {
   background-position-y: 100%;
 }
 
-body.plebe main{
-  margin: 2vw;
+body.plebe main {
+  margin: 5vw;
 }
 
 body.plebe h1 {
   text-align: center;
-  background-color: #F0B478;
+  background-color: #f0c8a0;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
 
-body.plebe img {
-  width: 50%;
-  height: auto;
-  border-radius: 6vw;
-  padding: 2vw;
+body.plebe section.banner-assuntos div {
+  background-image: url("../img/plebe.png");
+  background-position: 0 50%;
 }
 
-body.plebe section.explicacao{
-  text-align: center;  
+body.plebe section.explicacao {
+  text-align: center;
   background-size: cover;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
-
-
 
 /* === Homens Livres === */
 
 body.homens-livres {
   text-align: center;
-  background-color: #F0B4785F;
+  background-color: #f0b4785f;
   background-image: url("../img/planos-de-fundo/");
   background-size: cover;
   background-blend-mode: screen;
@@ -340,40 +401,34 @@ body.homens-livres {
   background-position-y: 100%;
 }
 
-body.homens-livres main{
-  margin: 2vw;
+body.homens-livres main {
+  margin: 5vw;
 }
 
 body.homens-livres h1 {
   text-align: center;
-  background-color: #F0B478;
+  background-color: #f0c8a0;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
 
-body.homens-livres img {
-  width: 50%;
-  height: auto;
-  border-radius: 6vw;
-  padding: 2vw;
+body.homens-livres section.banner-assuntos div {
+  background-image: url("../img/h");
+  background-position: 0 50%;
 }
 
-body.homens-livres section.explicacao{
-  text-align: center;  
+body.homens-livres section.explicacao {
+  text-align: center;
   background-size: cover;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
-
-
 
 /* === Libertos === */
 
 body.libertos {
   text-align: center;
-  background-color: #F0B4787F;
+  background-color: #f0b4787f;
   background-image: url("../img/planos-de-fundo/liberto.png");
   background-size: cover;
   background-blend-mode: screen;
@@ -382,40 +437,34 @@ body.libertos {
   background-position-y: 100%;
 }
 
-body.libertos main{
-  margin: 2vw;
+body.libertos main {
+  margin: 5vw;
 }
 
 body.libertos h1 {
   text-align: center;
-  background-color: #F0B478;
+  background-color: #f0c8a0;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
 
-body.libertos img {
-  width: 50%;
-  height: auto;
-  border-radius: 6vw;
-  padding: 2vw;
+body.libertos section.banner-assuntos div {
+  background-image: url("../img/liberto.jpg");
+  background-position: 0 10%;
 }
 
-body.libertos section.explicacao{
-  text-align: center;  
+body.libertos section.explicacao {
+  text-align: center;
   background-size: cover;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
-
-
 
 /* === Escravos === */
 
 body.escravos {
   text-align: center;
-  background-color: #F0B4787F;
+  background-color: #f0b4787f;
   background-image: url("../img/planos-de-fundo/escravos.png");
   background-size: cover;
   background-blend-mode: screen;
@@ -424,40 +473,34 @@ body.escravos {
   background-position-y: 100%;
 }
 
-body.homens-livres main{
-  margin: 2vw;
+body.escravos main {
+  margin: 5vw;
 }
 
 body.escravos h1 {
   text-align: center;
-  background-color: #F0B478;
+  background-color: #f0c8a0;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
 
-body.escravos img {
-  width: 50%;
-  height: auto;
-  border-radius: 6vw;
-  padding: 2vw;
+body.escravos section.banner-assuntos div {
+  background-image: url("../img/escravos.jpg");
+  background-position: 0 50%;
 }
 
-body.escravos section.explicacao{
-  text-align: center;  
+body.escravos section.explicacao {
+  text-align: center;
   background-size: cover;
   padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
 }
-
-
 
 /* === Quiz === */
 
 body.quiz {
   text-align: center;
-  background-color: #F0B4789F;
+  background-color: #f0b4789f;
   background-image: url("../img/planos-de-fundo/filosofo\ \(quiz\).png");
   background-size: cover;
   background-blend-mode: screen;
@@ -466,73 +509,62 @@ body.quiz {
   background-position-y: 100%;
 }
 
-body.quiz main{
-  margin: 2vw;
+body.quiz main {
+  margin: 5vw;
 }
 
 body.quiz h1 {
   text-align: center;
-  background-color: #F0B478;
-  padding: 2vw 1vw 2vw 1vw ;
-  margin: 1.5vw 0 0 0 ;
+  background-color: #f0c8a0;
+  padding: 2vw;
   border-radius: 2vw;
-  font-size: 3rem;
 }
 
-body.quiz img {
-  width: 50%;
-  height: auto;
-  border-radius: 6vw;
-  padding: 2vw;
+body.quiz section.banner-assuntos div {
+  background-image: url("../img/planos-de-fundo/filosofo\ \(quiz\).png");
+  background-position: 0 50%;
 }
 
-body.quiz section.banner{
-  text-align: center;  
+body.quiz section.banner-assuntos p {
+  padding-bottom: 5vw;
+}
+
+body.quiz section.quiz2 {
+  text-align: center;
   background-size: cover;
-  padding: 2vw;
-  margin: 3vw;
   border-radius: 2vw;
   display: inline-block;
+  background-color: #f0c8a0;
 }
 
-body.quiz section.quiz2{
-  text-align: center;  
-  background-size: cover;
-  padding: 2vw;
-  margin: 3vw;
-  border-radius: 2vw;
-  display: inline-block;
-}
-
-section.quiz2{
-  background-color: #F0B478;
+body.quiz form {
+  padding: 4vw;
 }
 
 .card-pergunta {
-  background: #F0B478;
-  padding: 20px;
-  border-radius: 8px;
-  margin-bottom: 20px;
+  padding: 2vw 0;
+  border-radius: 2vw;
+  margin-bottom: 2vw;
 }
 
 .enunciado {
-  font-size: 1.1rem;
   font-weight: bold;
-  margin-bottom: 15px;
-  color: #333333;
+  margin-bottom: 2vw;
+  color: #000000;
 }
 
 .alternativas-container {
+  text-align: left;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 2vw;
 }
 
 .opcao-label {
   display: flex;
   align-items: center;
   color: white;
-  background-color: #a8600f ;
+  background-color: #a8600f;
   gap: 2vw;
   padding: 2vw;
   border-radius: 20vw;
@@ -541,56 +573,55 @@ section.quiz2{
 }
 
 .opcao-label:hover {
-  color: #ffffff;
-  background-color: #aaaaaa;
-  border: 0.5vw solid #303030;
+  color: #000000;
+  background-color: #f0c8a0;
+  border: #a8600f solid 0.5vw;
 }
 
 button#btn-enviar {
-  padding: 12px 24px;
-  background-color: #4caf50;
+  text-align: center;
+  padding: 2vw;
+  background-color: #a8600f;
   color: white;
   border: none;
-  border-radius: 5px;
-  font-size: 1rem;
+  border-radius: 8vw;
   cursor: pointer;
   width: 100%;
+  transition: background 0.25s;
 }
 
 button#btn-enviar:hover {
-  background-color: #45a049;
+  color: #000000;
+  background-color: #f0c8a0;
+  border: #a8600f solid 0.5vw;
 }
 
 #resultado {
-  margin-top: 20px;
-  font-size: 1.2rem;
-  font-weight: bold;
+  margin-bottom: 5vw;
   text-align: center;
 }
 
-
-
 /* === Criadores === */
 
-body.criadores{
-  background-color: #F6E3CF;
+body.criadores {
+  background-color: #f6e3cf;
 }
 
-body.criadores h1{
+body.criadores h1 {
   padding: 5vw 0;
   text-align: center;
 }
 
-body.criadores li{
+body.criadores main li {
   display: flex;
   gap: 1.5vw;
 }
 
-body.criadores img{
+body.criadores main img {
   height: 30vw;
   padding: 1.5vw 0;
 }
 
-body.criadores section{
+body.criadores section {
   padding: 3vw;
 }
