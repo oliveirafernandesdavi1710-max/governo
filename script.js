@@ -15,7 +15,7 @@ const bancoDePerguntas = [
       { texto: "Os libertos eram ex escravos que adquiriram liberdade com pecúlio ou por bom desempenho no trabalho.", correta: true },
     ],
     // Quantidade de botões/alternativas que devem aparecer nesta pergunta
-    qtdAlternativasExibir: 3,
+    qtdAlternativasExibir: 4,
   },
   {
     id: "p2",
