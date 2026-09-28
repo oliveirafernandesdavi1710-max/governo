@@ -132,6 +132,7 @@ footer h2 {
 
 footer div {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -636,3 +637,29 @@ body.criadores main img {
 body.criadores section {
   padding: 3vw;
 }
+
+/* === Fontes === */
+
+body.fontes {
+  background-color: #f6e3cf;
+}
+
+body.fontes h1 {
+  padding: 5vw 0;
+  text-align: center;
+}
+
+body.fontes main li {
+  display: flex;
+  gap: 1.5vw;
+}
+
+body.fontes main img {
+  height: 30vw;
+  padding: 1.5vw 0;
+}
+
+body.fontes section {
+  padding: 3vw;
+}
+
