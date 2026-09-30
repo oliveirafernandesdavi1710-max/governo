@@ -50,6 +50,69 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 2,
   },
+  {
+    id: "p5",
+    enunciados: ["Como o Império Romano tratava os escravos?"],
+    alternativasDisponiveis: [
+      { texto: "Os escravos eram como propriedade de seus donos, trabalhando como agricultores, mineradores ou em serviços domésticos sem direitos civis. A escravidão não era sobre 'raça' no império romano, era sobre conquistas militares.", correta: true },
+      { texto: "Tratavam com respeito. Todos os escravos eram semi-livres podendo sair nos fins de semana.", correta: false },
+      { texto: "Os escravos eram tratados como inimigo do Estados. Todos os escravos eram presos quando se tornavam-se escravos.", correta: false },
+    ],
+    qtdAlternativasExibir: 3,
+  },
+  {
+    id: "p6",
+    enunciados: ["Qual a ordem correta das classes da pirâmide social do império romano, analisando da classe mais baixa até a classe mais alta?"],
+    alternativasDisponiveis: [
+      { texto: "Imperador, escravos, plebe, patrícios, libertos , senadores e homens livres.", correta: false },
+      { texto: "Escravos, libertos, plebe, senadores, patrícios e imperador.", correta: false },
+      { texto: "Escravos, libertos, homens livres, plebe, patrícios, senadores e imperador.", correta: true },
+    ],
+    qtdAlternativasExibir: 3,
+  },
+  {
+    id: "p7",
+    enunciados: ["O que eram os patrícios?"],
+    alternativasDisponiveis: [
+      { texto: "Eram filhos do reis que tinham algum tipo de cargo político.", correta: false },
+      { texto: "Eram pessoas que tinham cargos na igreja.", correta: false },
+      { texto: "Eram programadores reais do imperador.", correta: false },
+      { texto: "Eram descendentes de antigas famílias de Roma que obtiveram grande poder.", correta: true },
+    ],
+    qtdAlternativasExibir: 4,
+  },
+  {
+    id: "p8",
+    enunciados: ["Qual a função da plebe no Império Romano?"],
+    alternativasDisponiveis: [
+      { texto: "Servir ao imperador e mandar nos escravos.", correta: false },
+      { texto: "Trabalhar no senado e na agricultura.", correta: false },
+      { texto: "Trabalhar no comércio, agricultura e artesanato.", correta: true },
+    ],
+    qtdAlternativasExibir: 3,
+  },
+  {
+    id: "p9",
+    enunciados: ["Qual são as três etapas necessárias para se tornar um senador romano?"],
+    alternativasDisponiveis: [
+      { texto: "Faculdade, diploma e mestrado.", correta: false },
+      { texto: "Questores, pretores e cônsul.", correta: true },
+      { texto: "Filosofia, sociologia e mestrado.", correta: false },
+      { texto: "Diploma, cônsul e questores.", correta: false },
+    ],
+    qtdAlternativasExibir: 4,
+  },
+  {
+    id: "p10",
+    enunciados: ["Os imperadores romanos eram absolutos."],
+    alternativasDisponiveis: [
+      { texto: "Eles precisavam anexar uma cidade.", correta: false },
+      { texto: "Eles precisavam ser reconhecido pelo exército ou pelo senado.", correta: true },
+      { texto: "Eles precisavam ser o mais votado pela população.", correta: false },
+      { texto: "Eles precisavam entrar em uma luta de contra o antigo imperador, quem vencer se torna o novo imperador.", correta: false },
+    ],
+    qtdAlternativasExibir: 4,
+  },
 ];
 
 // Função utilitária para embaralhar um array (Algoritmo de Fisher-Yates)
