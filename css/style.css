@@ -443,6 +443,9 @@ body.homens-livres section.explicacao {
   border-radius: 2vw;
 }
 
+.homens-livres .explicacao h4 {
+  padding: 4vw 0 1vw 1.5vw; 
+}
 /* === Libertos === */
 
 body.libertos {
