@@ -107,6 +107,7 @@ section.explicacao {
   background-size: cover;
   padding: 1vw;
   border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 section.explicacao div {
@@ -190,7 +191,7 @@ body.inicio section.assuntos div ul {
   display: flex;
   flex-wrap: wrap;
   grid-template-columns: 1fr 1fr;
-  gap: 3vw;
+  gap: 5vw;
 }
 
 body.inicio section.assuntos div ul li {
@@ -200,6 +201,7 @@ body.inicio section.assuntos div ul li {
   background-repeat: no-repeat;
   background-blend-mode: color;
   border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 body.inicio section.assuntos div ul li a h6 {
@@ -278,6 +280,7 @@ body.imperador h1 {
   background-color: #f0c8a0;
   padding: 2vw;
   border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 body.imperador section.banner-assuntos div {
@@ -314,6 +317,7 @@ body.senadores h1 {
   background-color: #f0c8a0;
   padding: 2vw;
   border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 body.senadores section.banner-assuntos div {
@@ -350,6 +354,7 @@ body.patricios h1 {
   background-color: #f0c8a0;
   padding: 2vw;
   border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 body.patricios section.banner-assuntos div {
@@ -386,6 +391,7 @@ body.plebe h1 {
   background-color: #f0c8a0;
   padding: 2vw;
   border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 body.plebe section.banner-assuntos div {
@@ -422,6 +428,7 @@ body.homens-livres h1 {
   background-color: #f0c8a0;
   padding: 2vw;
   border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 body.homens-livres section.banner-assuntos div {
@@ -458,6 +465,7 @@ body.libertos h1 {
   background-color: #f0c8a0;
   padding: 2vw;
   border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 body.libertos section.banner-assuntos div {
@@ -494,6 +502,7 @@ body.escravos h1 {
   background-color: #f0c8a0;
   padding: 2vw;
   border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 body.escravos section.banner-assuntos div {
@@ -530,6 +539,7 @@ body.quiz h1 {
   background-color: #f0c8a0;
   padding: 2vw;
   border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 body.quiz section.banner-assuntos div {
@@ -547,6 +557,7 @@ body.quiz section.quiz2 {
   border-radius: 2vw;
   display: inline-block;
   background-color: #f0c8a0;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 body.quiz form {
@@ -662,4 +673,3 @@ body.fontes main img {
 body.fontes section {
   padding: 3vw;
 }
-
