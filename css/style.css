@@ -16,34 +16,34 @@ h6 {
 }
 
 h1 {
-  font-size: 6.5vw;
+  font-size: 4vw;
 }
 
 h2 {
-  font-size: 6vw;
+  font-size: 3.75vw;
 }
 
 h3 {
-  font-size: 5.5vw;
+  font-size: 3.5vw;
 }
 
 h4 {
-  font-size: 5vw;
+  font-size: 3.25vw;
 }
 
 h5 {
-  font-size: 4.5vw;
+  font-size: 3vw;
 }
 
 h6 {
-  font-size: 4vw;
+  font-size: 2.75vw;
 }
 
 p {
   font-family: "Libre Baskerville", serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 3vw;
+  font-size: 2vw;
 }
 
 a {
@@ -116,6 +116,40 @@ section.explicacao div {
   border-radius: 2vw;
 }
 
+section.estudo-plus {
+  text-align: left;
+  background-color: #f0c8a0;
+  background-size: cover;
+  margin-top: 5vw;
+  padding: 1vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+}
+
+section.estudo-plus h2{
+  text-align: center;
+}
+
+section.estudo-plus li{
+  gap: 1.5vw;
+  padding: 1.5vw;
+}
+
+section.estudo-plus li a{
+  display: flex;
+  gap: 1.5vw;
+  color: #000000;
+  text-decoration: none;
+}
+
+section.estudo-plus li a:hover{
+  color: #00f;
+}
+
+section.estudo-plus li img{
+  width: 30vw;
+}
+
 footer {
   background-color: #f0b478;
   text-align: left;
@@ -132,6 +166,7 @@ footer h2 {
 }
 
 footer div {
+  padding-top: 1vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -147,7 +182,7 @@ body.inicio section.banner {
   display: flex;
   padding: 2vw 2vw;
   gap: 4vw;
-  padding: 2vw 2vw;
+  padding: 5vw 5vw 0 5vw;
   align-items: center;
 }
 
@@ -166,11 +201,12 @@ body.inicio section.banner p {
 
 body.inicio section.piramide{
   text-align: center;
+  padding: 5vw 5vw 0 5vw;
 }
 
 body.inicio section.piramide h2 {
   text-align: center;
-  padding: 3vw 0 3vw 0;
+  padding: 5vw 0;
 }
 
 body.inicio section.piramide img {
@@ -178,25 +214,23 @@ body.inicio section.piramide img {
 }
 
 body.inicio section.assuntos {
+  padding: 0 5vw 5vw 5vw;
   text-align: center;
-  align-items: center;
 }
 
-body.inicio section.assuntos img {
-  width: 35vw;
+body.inicio section.assuntos h2{
+  padding-bottom: 5vw;
 }
 
 body.inicio section.assuntos div ul {
-  padding: 11vw;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 5vw;
 }
 
 body.inicio section.assuntos div ul li {
-  width: 35vw;
-  height: 35vw;
+  width: 100%;
+  height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: color;
@@ -416,7 +450,7 @@ body.homens-livres {
   background-blend-mode: screen;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position-y: 100%;
+  background-position-y: 100%;Sempre o melhor esquema para aprende
 }
 
 body.homens-livres main {
@@ -443,9 +477,6 @@ body.homens-livres section.explicacao {
   border-radius: 2vw;
 }
 
-.homens-livres .explicacao h4 {
-  padding: 4vw 0 1vw 1.5vw; 
-}
 /* === Libertos === */
 
 body.libertos {
@@ -577,6 +608,7 @@ body.quiz form {
   font-weight: bold;
   margin-bottom: 2vw;
   color: #000000;
+  font-size: 2vw;
 }
 
 .alternativas-container {
@@ -590,6 +622,7 @@ body.quiz form {
   display: flex;
   align-items: center;
   color: white;
+  font-size: 2vw;
   background-color: #a8600f;
   gap: 2vw;
   padding: 2vw;
@@ -609,6 +642,7 @@ button#btn-enviar {
   padding: 2vw;
   background-color: #a8600f;
   color: white;
+  font-size: 2vw;
   border: none;
   border-radius: 8vw;
   cursor: pointer;
@@ -625,6 +659,7 @@ button#btn-enviar:hover {
 #resultado {
   margin-bottom: 5vw;
   text-align: center;
+  font-size: 2vw;
 }
 
 /* === Criadores === */
@@ -644,8 +679,13 @@ body.criadores main li {
 }
 
 body.criadores main img {
+  width: 30vw;
   height: 30vw;
   padding: 1.5vw 0;
+}
+
+body.criadores main section.criadores ul li a img {
+  border-radius: 2vw;
 }
 
 body.criadores section {
@@ -669,6 +709,7 @@ body.fontes main li {
 }
 
 body.fontes main img {
+  width: 30vw;
   height: 30vw;
   padding: 1.5vw 0;
 }
