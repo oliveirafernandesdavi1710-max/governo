@@ -425,7 +425,7 @@ Revisão de arquivos.
 
 Ausentes:
 
-Sem ausentes
+Sem ausentes.
 
 
 
@@ -444,7 +444,7 @@ Revisão de arquivos.
 
 Ausentes:
 
-Sem ausentes
+Sem ausentes.
 
 
 
@@ -463,4 +463,42 @@ Revisão de arquivos.
 
 Ausentes:
 
-Gabriel Vicente Ziele (Problemas familiares)
+Gabriel Vicente Ziele (Problemas familiares).
+
+
+
+---
+# Ata 17
+
+Data:
+
+28/09/2026
+
+
+Assunto:
+
+Polimento do site.
+
+
+Ausentes:
+
+Sem ausentes.
+
+
+
+---
+# Ata 18
+
+Data:
+
+30/09/2026
+
+
+Assunto:
+
+Polimento do site.
+
+
+Ausentes:
+
+Rian Luka Gazziero da Rosa.
