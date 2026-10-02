@@ -17,7 +17,7 @@ const bancoDePerguntas = [
     // Quantidade de botões/alternativas que devem aparecer nesta pergunta
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: PLEBE, LIBERTOS e HOMENS LIVRES",
-    link: "index.html/assuntos",
+    link: "index.html#assuntos",
   },
   {
     id: "p2",
@@ -32,7 +32,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: SENADORES",
-    link: "index.html/assuntos",
+    link: "index.html#assuntos",
   },
   {
     id: "p3",
@@ -45,7 +45,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: PLEBE",
-    link: "index.html/assuntos",
+    link: "index.html#assuntos",
   },
   {
     id: "p4",
@@ -56,7 +56,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 2,
     textoLink: "Veja mais em: IMPERADORES",
-    link: "index.html/assuntos",
+    link: "index.html#assuntos",
   },
   {
     id: "p5",
@@ -68,7 +68,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 3,
     textoLink: "Veja mais em: ESCRAVOS",
-    link: "index.html/assuntos",
+    link: "index.html#assuntos",
   },
   {
     id: "p6",
@@ -80,7 +80,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 3,
     textoLink: "Veja mais em: INÍCIO",
-    link: "index.html/assuntos",
+    link: "index.html#assuntos",
   },
   {
     id: "p7",
@@ -93,7 +93,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: PATRÍCIOS",
-    link: "index.html/assuntos",
+    link: "index.html#assuntos",
   },
   {
     id: "p8",
@@ -105,7 +105,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 3,
     textoLink: "Veja mais em: PLEBE",
-    link: "index.html/assuntos",
+    link: "index.html#assuntos",
   },
   {
     id: "p9",
@@ -118,7 +118,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: SENADORES",
-    link: "index.html/assuntos",
+    link: "index.html#assuntos",
   },
   {
     id: "p10",
@@ -131,7 +131,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: IMPERADORES",
-    link: "index.html/assuntos",
+    link: "index.html#assuntos",
   },
 ];
 
