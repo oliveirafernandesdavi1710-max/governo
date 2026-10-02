@@ -89,6 +89,7 @@ body {
 
 main {
   flex: 1; /* Empurra o footer para baixo preenchendo o espaço */
+  margin: 0 5vw;
 }
 
 section.banner-assuntos div {
