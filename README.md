@@ -393,7 +393,7 @@ Rian Luka Gazziero da Rosa.
 
 Notas:
 
-João Pedro da Rosa não fez a tarefa que lhe foi pedida nas reuniões anteriores e intencionalmente agrediu Fábio Sebastian e Matheus Araújo(por que sera né?).
+João Pedro da Rosa não fez a tarefa que lhe foi pedida nas reuniões anteriores e intencionalmente agrediu Fábio Sebastian e Matheus Araújo(com motivos plausíveis).
 
 
 Divisão de tarefas:
