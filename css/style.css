@@ -662,6 +662,70 @@ button#btn-enviar:hover {
   font-size: 2vw;
 }
 
+.opcao-label.correta,
+.opcao-label.correta:hover {
+  background-color: #2e8b3d;
+  color: white;
+  border: none;
+}
+
+.opcao-label.errada,
+.opcao-label.errada:hover {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+}
+
+.opcao-label:has(input:disabled) {
+  cursor: default;
+}
+
+.opcao-label.revelada,
+.opcao-label.revelada:hover {
+  background-color: #9e9e9e;
+  color: white;
+  border: none;
+}
+
+.link-estudo {
+  margin-top: 2vw;
+  font-size: 1.8vw;
+}
+
+.link-estudo a {
+  color: #a8600f;
+  font-weight: bold;
+}
+
+.link-estudo a:hover {
+  text-decoration: underline;
+}
+
+button#btn-enviar:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+button#btn-reiniciar {
+  text-align: center;
+  padding: 2vw;
+  margin-top: 2vw;
+  background-color: #a8600f;
+  color: white;
+  font-size: 2vw;
+  border: none;
+  border-radius: 8vw;
+  cursor: pointer;
+  width: 100%;
+  transition: background 0.25s;
+}
+
+button#btn-reiniciar:hover {
+  color: #000000;
+  background-color: #f0c8a0;
+  border: #a8600f solid 0.5vw;
+}
+
 /* === Criadores === */
 
 body.criadores {

@@ -16,6 +16,8 @@ const bancoDePerguntas = [
     ],
     // Quantidade de botões/alternativas que devem aparecer nesta pergunta
     qtdAlternativasExibir: 4,
+    textoLink: "Veja mais em: PLEBE, LIBERTOS e HOMENS LIVRES",
+    link: "index.html/assuntos",
   },
   {
     id: "p2",
@@ -29,6 +31,8 @@ const bancoDePerguntas = [
       { texto: "É uma função administrativa ocupada por senadores feita para administrar o povo.", correta: false },
     ],
     qtdAlternativasExibir: 4,
+    textoLink: "Veja mais em: SENADORES",
+    link: "index.html/assuntos",
   },
   {
     id: "p3",
@@ -40,6 +44,8 @@ const bancoDePerguntas = [
       { texto: "Acredita-se que foi composta por povos conquistados, antigos clientes e estrangeiros protegidos pelo Estado. Durante a Monarquia Romana.", correta: false },
     ],
     qtdAlternativasExibir: 4,
+    textoLink: "Veja mais em: PLEBE",
+    link: "index.html/assuntos",
   },
   {
     id: "p4",
@@ -49,6 +55,8 @@ const bancoDePerguntas = [
       { texto: "Não", correta: true },
     ],
     qtdAlternativasExibir: 2,
+    textoLink: "Veja mais em: IMPERADORES",
+    link: "index.html/assuntos",
   },
   {
     id: "p5",
@@ -59,6 +67,8 @@ const bancoDePerguntas = [
       { texto: "Os escravos eram tratados como inimigo do Estados. Todos os escravos eram presos quando se tornavam-se escravos.", correta: false },
     ],
     qtdAlternativasExibir: 3,
+    textoLink: "Veja mais em: ESCRAVOS",
+    link: "index.html/assuntos",
   },
   {
     id: "p6",
@@ -69,6 +79,8 @@ const bancoDePerguntas = [
       { texto: "Escravos, libertos, homens livres, plebe, patrícios, senadores e imperador.", correta: true },
     ],
     qtdAlternativasExibir: 3,
+    textoLink: "Veja mais em: INÍCIO",
+    link: "index.html/assuntos",
   },
   {
     id: "p7",
@@ -80,6 +92,8 @@ const bancoDePerguntas = [
       { texto: "Eram descendentes de antigas famílias de Roma que obtiveram grande poder.", correta: true },
     ],
     qtdAlternativasExibir: 4,
+    textoLink: "Veja mais em: PATRÍCIOS",
+    link: "index.html/assuntos",
   },
   {
     id: "p8",
@@ -90,6 +104,8 @@ const bancoDePerguntas = [
       { texto: "Trabalhar no comércio, agricultura e artesanato.", correta: true },
     ],
     qtdAlternativasExibir: 3,
+    textoLink: "Veja mais em: PLEBE",
+    link: "index.html/assuntos",
   },
   {
     id: "p9",
@@ -101,17 +117,21 @@ const bancoDePerguntas = [
       { texto: "Diploma, cônsul e questores.", correta: false },
     ],
     qtdAlternativasExibir: 4,
+    textoLink: "Veja mais em: SENADORES",
+    link: "index.html/assuntos",
   },
   {
     id: "p10",
-    enunciados: ["Os imperadores romanos eram absolutos."],
+    enunciados: ["O que era necessário para se tornar um imperador romano?"],
     alternativasDisponiveis: [
-      { texto: "Eles precisavam anexar uma cidade.", correta: false },
-      { texto: "Eles precisavam ser reconhecido pelo exército ou pelo senado.", correta: true },
-      { texto: "Eles precisavam ser o mais votado pela população.", correta: false },
-      { texto: "Eles precisavam entrar em uma luta de contra o antigo imperador, quem vencer se torna o novo imperador.", correta: false },
+      { texto: "Era necessário anexar uma cidade.", correta: false },
+      { texto: "Era necessário ser reconhecido pelo exército ou pelo senado.", correta: true },
+      { texto: "Era necessário ser o mais votado pela população.", correta: false },
+      { texto: "Era necessário entrar em uma luta contra o antigo imperador, quem vencer se torna o novo imperador.", correta: false },
     ],
     qtdAlternativasExibir: 4,
+    textoLink: "Veja mais em: IMPERADORES",
+    link: "index.html/assuntos",
   },
 ];
 
@@ -172,6 +192,9 @@ function gerarQuiz() {
     // C. Cria os elementos HTML da pergunta
     const card = document.createElement("div");
     card.className = "card-pergunta";
+    card.dataset.id = pergunta.id;
+    card.dataset.textoLink = pergunta.textoLink || "";
+    card.dataset.link = pergunta.link || "";
 
     const titulo = document.createElement("div");
     titulo.className = "enunciado";
@@ -208,19 +231,54 @@ function gerarQuiz() {
 document.getElementById("quiz-form").addEventListener("submit", function (e) {
   e.preventDefault();
 
-  const formData = new FormData(this);
   let acertos = 0;
 
-  for (let [perguntaId, respostaSelecionada] of formData.entries()) {
-    if (respostasCorretas[perguntaId] === respostaSelecionada) {
+  this.querySelectorAll(".card-pergunta").forEach((card) => {
+    const perguntaId = card.dataset.id;
+    const marcada = card.querySelector("input:checked");
+    const label = marcada.closest("label");
+
+    if (marcada.value === respostasCorretas[perguntaId]) {
       acertos++;
+      label.classList.add("correta");
+    } else {
+      label.classList.add("errada");
+
+      // revela a alternativa correta em cinza
+      card.querySelectorAll("input").forEach((input) => {
+        if (input.value === respostasCorretas[perguntaId]) {
+          input.closest("label").classList.add("revelada");
+        }
+      });
     }
-  }
+
+    // texto/link embaixo da pergunta
+    if (card.dataset.link) {
+      const p = document.createElement("p");
+      p.className = "link-estudo";
+
+      const a = document.createElement("a");
+      a.href = card.dataset.link;
+      a.textContent = card.dataset.textoLink || "Saiba mais";
+
+      p.appendChild(a);
+      card.appendChild(p);
+    }
+  });
+
+  // trava o quiz depois de enviado
+  this.querySelectorAll("input").forEach((input) => (input.disabled = true));
+  document.getElementById("btn-enviar").disabled = true;
 
   document.getElementById(
     "resultado"
-  ).textContent = `Você acertou ${acertos} de ${totalPerguntas} perguntas!`;
+  ).textContent = `Você acertou ${acertos} de ${totalPerguntasExibidas} perguntas!`;
 });
 
 // Inicia o quiz ao carregar a página
 gerarQuiz();
+
+document.getElementById("btn-reiniciar").addEventListener("click", function () {
+  gerarQuiz();
+  window.scrollTo({ top: 0, behavior: "smooth" });
+});
