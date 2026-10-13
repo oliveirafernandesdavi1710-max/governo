@@ -430,7 +430,7 @@ Sem ausentes.
 
 
 ---
-# Ata 15
+# Ata 15com
 
 Data:
 
@@ -502,3 +502,31 @@ Polimento do site.
 Ausentes:
 
 Rian Luka Gazziero da Rosa.
+
+
+
+---
+# Ata 19
+
+Data:
+
+13/10/2026
+
+
+Assunto:
+
+Experiência da Semana de Ensino, Pesquisa e Extensão.
+
+
+Ausentes:
+
+Gabriel Vicente Ziele (Febre).
+
+
+Experiência do grupo em relação a SEPE:
+
+O grupo gostou da experiência que nos foi concedida por meio deste projeto muito incentivador, pois foi mostrado para nós como é repassar os ensinamentos adquiridos pela equipe durante a criação do nosso projeto, sendo este projeto um site no qual tinha a finalidade de ensinar sobre a pirâmide social do império romano para o usuário.
+
+Em geral, podemos dizer que foi uma experiência gratificante para cada membro da equipe, além do que podemos mencionar que todos se saíram bem em seus momentos de apresentação.
+
+Por último, não podemos esquecer de apontar a ausência de um dos membros do nosso grupo, sendo esse membro o Rian Luka Gazziero da Rosa, devido ao seu mal estar no período da SEPE, mais especificamente desde quarta-feira. De qualquer forma, pode se dizer que conseguimos lidar de forma razoável em relação a sua ausência.
