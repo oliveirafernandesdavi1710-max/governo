@@ -157,13 +157,22 @@ footer {
 }
 
 footer img{
-  width: 10vw;
+  width: 3vw;
   padding-right: 1.5vw;
 }
 
 footer h2 {
   padding-top: 2vw;
 }
+
+footer p{
+  font-size: medium;
+}
+
+footer div h2{
+  font-size: medium;
+}
+
 
 footer div {
   padding-top: 1vw;
