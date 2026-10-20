@@ -65,6 +65,7 @@ Ausentes:
 
 Sem ausência.
 
+
 Divisão de tarefas:
 
 Todos: Coletar as informações que faltam para a construção do site.
@@ -223,7 +224,7 @@ Polimento do design do Figma e começo oficial da programação em HTML e CSS.
 
 Ausentes:
 
-Rian Luka Gazziero da Rosa. (Sem justificativa)
+Rian Luka Gazziero da Rosa (Sem justificativa).
 
 
 Divisão de tarefas:
@@ -351,7 +352,7 @@ Programação em HTML e CSS.
 
 Ausentes:
 
-Rian Luka Gazziero da Rosa.
+Rian Luka Gazziero da Rosa (Sem justificativa).
 
 
 Notas:
@@ -388,7 +389,7 @@ Programação em HTML e CSS.
 
 Ausentes:
 
-Rian Luka Gazziero da Rosa.
+Rian Luka Gazziero da Rosa (Sem justificativa).
 
 
 Notas:
@@ -430,7 +431,7 @@ Sem ausentes.
 
 
 ---
-# Ata 15com
+# Ata 15
 
 Data:
 
@@ -501,7 +502,7 @@ Polimento do site.
 
 Ausentes:
 
-Rian Luka Gazziero da Rosa.
+Rian Luka Gazziero da Rosa (Sem justificativa).
 
 
 
@@ -530,3 +531,22 @@ O grupo gostou da experiência que nos foi concedida por meio deste projeto muit
 Em geral, podemos dizer que foi uma experiência gratificante para cada membro da equipe, além do que podemos mencionar que todos se saíram bem em seus momentos de apresentação.
 
 Por último, não podemos esquecer de apontar a ausência de um dos membros do nosso grupo, sendo esse membro o Rian Luka Gazziero da Rosa, devido ao seu mal estar no período da SEPE, mais especificamente desde quarta-feira. De qualquer forma, pode se dizer que conseguimos lidar de forma razoável em relação a sua ausência.
+
+
+
+---
+# Ata 20
+
+Data:
+
+20/10/2026
+
+
+Assunto:
+
+Experiência da Semana de Ensino, Pesquisa e Extensão.
+
+
+Ausentes:
+
+Rian Luka Gazziero da Rosa (Dor de cabeça).
