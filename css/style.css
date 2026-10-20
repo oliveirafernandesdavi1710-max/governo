@@ -161,10 +161,6 @@ footer img{
   padding-right: 1.5vw;
 }
 
-footer h2 {
-  padding-top: 2vw;
-}
-
 footer p{
   font-size: medium;
 }
@@ -173,6 +169,9 @@ footer div h2{
   font-size: medium;
 }
 
+footer h2 {
+  padding-top: 2vw;
+}
 
 footer div {
   padding-top: 1vw;
