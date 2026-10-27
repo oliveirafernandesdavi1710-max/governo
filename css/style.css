@@ -16,34 +16,34 @@ h6 {
 }
 
 h1 {
-  font-size: 4vw;
-}
-
-h2 {
   font-size: 3.75vw;
 }
 
-h3 {
+h2 {
   font-size: 3.5vw;
 }
 
-h4 {
+h3 {
   font-size: 3.25vw;
 }
 
-h5 {
+h4 {
   font-size: 3vw;
 }
 
+h5 {
+  font-size: 2.5vw;
+}
+
 h6 {
-  font-size: 2.75vw;
+  font-size: 2.5vw;
 }
 
 p {
   font-family: "Libre Baskerville", serif;
   font-weight: 100;
   font-style: normal;
-  font-size: 2vw;
+  font-size: 1.75vw;
 }
 
 a {
@@ -787,6 +787,37 @@ body.fontes section {
 }
 
 @media only screen and (max-width: 600px) {
+  h1 {
+    font-size: 5vw;
+  }
+
+  h2 {
+    font-size: 4.75vw;
+  }
+
+  h3 {
+    font-size: 4.5vw;
+  }
+
+  h4 {
+    font-size: 4.25vw;
+  }
+
+  h5 {
+    font-size: 4vw;
+  }
+
+  h6 {
+    font-size: 3.75vw;
+  }
+
+  p {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 3vw;
+  }
+
   /* === Início === */
 
   body.inicio section.assuntos div ul {
@@ -796,12 +827,24 @@ body.fontes section {
   }
 
   body.inicio section.assuntos div ul li {
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-blend-mode: color;
-  border-radius: 2vw;
-  box-shadow: 0 1vw 2vw 1vw #0000009f;
-}
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: color;
+    border-radius: 2vw;
+    box-shadow: 0 1vw 2vw 1vw #0000009f;
+  }
+
+  /* === Imperador === */
+
+  section.banner-assuntos div {
+    width: 100%;
+    height: 50vw;
+    margin: 5vw 0;
+    border-radius: 2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 1vw 2vw 1vw #0000009f;
+  }
 }
