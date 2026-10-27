@@ -544,9 +544,28 @@ Data:
 
 Assunto:
 
-Experiência da Semana de Ensino, Pesquisa e Extensão.
+Discussão sobre atualizações futuras do site.
 
 
 Ausentes:
 
 Rian Luka Gazziero da Rosa (Dor de cabeça).
+
+
+
+---
+# Ata 21
+
+Data:
+
+27/10/2026
+
+
+Assunto:
+
+Divisão de tarefas e criação da responsividade do site.
+
+
+Ausentes:
+
+Sem ausentes.
