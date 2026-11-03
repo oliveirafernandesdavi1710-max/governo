@@ -91,13 +91,27 @@ main {
   flex: 1; /* Empurra o footer para baixo preenchendo o espaço */
 }
 
-section.banner-assuntos div {
-  width: 100%;
-  height: 50vw;
-  margin: 5vw 0;
+section.definicao{
+  display: flex;
+}
+
+section.definicao div.imagem {
+  width: 75vw;
+  height: 25vw;
+  margin: 5vw 5vw 5vw 0;
   border-radius: 2vw;
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+}
+
+section.definicao div.escrita {
+  text-align: left;
+  background-color: #f0c8a0;
+  background-size: cover;
+  margin: 5vw 0;
+  padding: 3vw;
+  border-radius: 2vw;
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
@@ -321,7 +335,7 @@ body.imperador h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.imperador section.banner-assuntos div {
+body.imperador section.definicao div.imagem {
   background-image: url("../img/julio\ acabate\ \(pássaro\).jpg");
   background-position: 0 50%;
 }
@@ -358,7 +372,7 @@ body.senadores h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.senadores section.banner-assuntos div {
+body.senadores section.definicao div.imagem {
   background-image: url("../img/senadores.jpg");
   background-position: 0;
 }
@@ -395,7 +409,7 @@ body.patricios h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.patricios section.banner-assuntos div {
+body.patricios section.definicao div.imagem {
   background-image: url("../img/patricio.jpg");
   background-position: 0 10%;
 }
@@ -432,7 +446,7 @@ body.plebe h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.plebe section.banner-assuntos div {
+body.plebe section.definicao div.imagem {
   background-image: url("../img/plebe.png");
   background-position: 0 50%;
 }
@@ -469,7 +483,7 @@ body.homens-livres h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.homens-livres section.banner-assuntos div {
+body.homens-livres section.definicao div.imagem {
   background-image: url("../img/homens-livres.png");
   background-position: 0 50%;
 }
@@ -506,7 +520,7 @@ body.libertos h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.libertos section.banner-assuntos div {
+body.libertos section.definicao div.imagem {
   background-image: url("../img/liberto.jpg");
   background-position: 0 10%;
 }
@@ -543,7 +557,7 @@ body.escravos h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.escravos section.banner-assuntos div {
+body.escravos section.definicao div.imagem {
   background-image: url("../img/escravos.jpg");
   background-position: 0 50%;
 }
@@ -818,11 +832,38 @@ body.fontes section {
     font-size: 3vw;
   }
 
+  footer img {
+    width: 3vw;
+    padding-right: 1.5vw;
+  }
+
+  footer p {
+    font-size: 2.75vw;
+  }
+
+  footer div h2 {
+    font-size: 4vw;
+  }
+
+  section.definicao{
+    display: block;
+  }
+
+  section.definicao div.imagem {
+  width: 100%;
+  height: 50vw;
+  margin: 5vw 0;
+  border-radius: 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+}
+
   /* === Início === */
 
   body.inicio section.assuntos div ul {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 5vw;
   }
 
@@ -847,4 +888,5 @@ body.fontes section {
     background-repeat: no-repeat;
     box-shadow: 0 1vw 2vw 1vw #0000009f;
   }
+
 }
