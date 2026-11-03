@@ -565,6 +565,25 @@ Assunto:
 
 Divisão de tarefas e criação da responsividade do site.
 
+Adição de novas páginas
+Ausentes:
+
+Sem ausentes.
+
+
+
+---
+# Ata 22
+
+Data:
+
+03/11/2026
+
+
+Assunto:
+
+Aprimoramento das novas páginas e continuação da responsividade do site.
+
 
 Ausentes:
 
