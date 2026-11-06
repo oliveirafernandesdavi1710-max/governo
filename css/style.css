@@ -91,12 +91,13 @@ main {
   flex: 1; /* Empurra o footer para baixo preenchendo o espaço */
 }
 
-section.definicao{
-  display: flex;
+section.definicao ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 
-section.definicao div.imagem {
-  width: 65vw;
+section.definicao li.imagem {
+  width: auto;
   height: 25vw;
   margin: 5vw 5vw 5vw 0;
   border-radius: 2vw;
@@ -105,7 +106,7 @@ section.definicao div.imagem {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-section.definicao div.escrita {
+section.definicao li.escrita {
   width: auto;
   height: auto;
   text-align: left;
@@ -326,7 +327,7 @@ body.imperador {
 }
 
 body.imperador main {
-  margin: 5vw;
+  margin: 5vw 10vw;
 }
 
 body.imperador h1 {
@@ -337,7 +338,7 @@ body.imperador h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.imperador section.definicao div.imagem {
+body.imperador section.definicao li.imagem {
   background-image: url("../img/julio\ acabate\ \(pássaro\).jpg");
   background-position: 0 50%;
 }
@@ -363,7 +364,7 @@ body.senadores {
 }
 
 body.senadores main {
-  margin: 5vw;
+  margin: 5vw 10vw;
 }
 
 body.senadores h1 {
@@ -374,7 +375,7 @@ body.senadores h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.senadores section.definicao div.imagem {
+body.senadores section.definicao li.imagem {
   background-image: url("../img/senadores.jpg");
   background-position: 0;
 }
@@ -400,7 +401,7 @@ body.patricios {
 }
 
 body.patricios main {
-  margin: 5vw;
+  margin: 5vw 10vw;
 }
 
 body.patricios h1 {
@@ -411,7 +412,7 @@ body.patricios h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.patricios section.definicao div.imagem {
+body.patricios section.definicao li.imagem {
   background-image: url("../img/patricio.jpg");
   background-position: 0 10%;
 }
@@ -437,7 +438,7 @@ body.plebe {
 }
 
 body.plebe main {
-  margin: 5vw;
+  margin: 5vw 10vw;
 }
 
 body.plebe h1 {
@@ -448,7 +449,7 @@ body.plebe h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.plebe section.definicao div.imagem {
+body.plebe section.definicao li.imagem {
   background-image: url("../img/plebe.png");
   background-position: 0 50%;
 }
@@ -474,7 +475,7 @@ body.homens-livres {
 }
 
 body.homens-livres main {
-  margin: 5vw;
+  margin: 5vw 10vw;
 }
 
 body.homens-livres h1 {
@@ -485,7 +486,7 @@ body.homens-livres h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.homens-livres section.definicao div.imagem {
+body.homens-livres section.definicao li.imagem {
   background-image: url("../img/homens-livres.png");
   background-position: 0 50%;
 }
@@ -511,7 +512,7 @@ body.libertos {
 }
 
 body.libertos main {
-  margin: 5vw;
+  margin: 5vw 10vw;
 }
 
 body.libertos h1 {
@@ -522,7 +523,7 @@ body.libertos h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.libertos section.definicao div.imagem {
+body.libertos section.definicao li.imagem {
   background-image: url("../img/liberto.jpg");
   background-position: 0 10%;
 }
@@ -548,7 +549,7 @@ body.escravos {
 }
 
 body.escravos main {
-  margin: 5vw;
+  margin: 5vw 10vw;
 }
 
 body.escravos h1 {
@@ -559,7 +560,7 @@ body.escravos h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.escravos section.definicao div.imagem {
+body.escravos section.definicao li.imagem {
   background-image: url("../img/escravos.jpg");
   background-position: 0 50%;
 }
@@ -585,7 +586,7 @@ body.quiz {
 }
 
 body.quiz main {
-  margin: 5vw;
+  margin: 5vw 10vw;
 }
 
 body.quiz h1 {
@@ -596,7 +597,7 @@ body.quiz h1 {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.quiz section.definicao div.imagem {
+body.quiz section.definicao li.imagem {
   background-image: url("../img/planos-de-fundo/filosofo\ \(quiz\).png");
   background-position: 0 50%;
 }
@@ -757,6 +758,10 @@ body.criadores h1 {
   text-align: center;
 }
 
+body.criadores main{
+  margin: 5vw 10vw;
+}
+
 body.criadores main li {
   display: flex;
   gap: 1.5vw;
@@ -785,6 +790,10 @@ body.fontes {
 body.fontes h1 {
   padding: 5vw 0;
   text-align: center;
+}
+
+body.fontes main{
+  margin: 5vw 10vw;
 }
 
 body.fontes main li {
@@ -847,19 +856,41 @@ body.fontes section {
     font-size: 4vw;
   }
 
-  section.definicao{
+  section.banner-assuntos div {
+    width: 100%;
+    height: 50vw;
+    margin: 5vw 0;
+    border-radius: 2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 1vw 2vw 1vw #0000009f;
+  }
+
+  section.definicao ul {
     display: block;
   }
 
-  section.definicao div.imagem {
-  width: 100%;
-  height: 50vw;
-  margin: 5vw 0;
-  border-radius: 2vw;
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-shadow: 0 1vw 2vw 1vw #0000009f;
-}
+  section.definicao li.imagem {
+    width: auto;
+    height: 50vw;
+    margin: 5vw 0;
+    border-radius: 2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 1vw 2vw 1vw #0000009f;
+  }
+
+  section.definicao li.escrita {
+    width: auto;
+    height: auto;
+    text-align: left;
+    background-color: #f0c8a0;
+    background-size: cover;
+    margin: 5vw 0;
+    padding: 3vw;
+    border-radius: 2vw;
+    box-shadow: 0 1vw 2vw 1vw #0000009f;
+  }
 
   /* === Início === */
 
@@ -881,14 +912,61 @@ body.fontes section {
 
   /* === Imperador === */
 
-  section.banner-assuntos div {
-    width: 100%;
-    height: 50vw;
-    margin: 5vw 0;
-    border-radius: 2vw;
-    background-size: cover;
-    background-repeat: no-repeat;
-    box-shadow: 0 1vw 2vw 1vw #0000009f;
+  body.imperador main {
+    margin: 5vw 5vw;
+  }
+  
+  /* === Senadores === */
+
+  body.senadores main {
+    margin: 5vw 5vw;
   }
 
+  /* === Patricios === */
+
+  body.patricios main {
+    margin: 5vw 5vw;
+  }
+
+  /* === Plebe === */
+
+  body.plebe main {
+    margin: 5vw 5vw;
+  }
+
+  /* === Homens Livres === */
+
+  body.homens-livres main {
+    margin: 5vw 5vw;
+  }
+  
+  /* === Libertos === */
+
+  body.libertos main {
+    margin: 5vw 5vw;
+  }
+
+  /* === Escravos === */
+
+  body.escravos main {
+    margin: 5vw 5vw;
+  }
+
+  /* === Quiz === */
+
+  body.quiz main {
+    margin: 5vw 5vw;
+  }
+
+  /* === Criadores === */
+
+  body.criadores main {
+    margin: 5vw 5vw;
+  }
+
+  /* === Fontes === */
+
+  body.fontes main {
+    margin: 5vw 5vw;
+  }
 }
