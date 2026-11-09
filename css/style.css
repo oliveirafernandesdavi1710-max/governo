@@ -40,7 +40,7 @@ h6 {
 }
 
 p {
-  font-family: "Libre Baskerville", serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
   font-style: normal;
   font-size: 1.75vw;
@@ -54,12 +54,12 @@ header {
   background-color: #a8600f;
   display: flex;
   justify-content: space-between;
-  padding: 2vw;
+  padding: 1vw 2vw;
   align-items: center;
 }
 
 header img {
-  width: 5vw;
+  width: 3.25vw;
 }
 
 header nav ul {
@@ -174,16 +174,8 @@ footer {
 }
 
 footer img {
-  width: 3vw;
+  width: 5vw;
   padding-right: 1.5vw;
-}
-
-footer p {
-  font-size: 1.5vw;
-}
-
-footer div h2 {
-  font-size: 2.25vw;
 }
 
 footer div {
@@ -195,58 +187,86 @@ footer div {
 
 /* === Início === */
 
-body.inicio section {
+body.inicio main {
+  margin: 5vw 10vw;
+}
+
+body.inicio {
   background-color: #f6e3cf;
 }
 
 body.inicio section.banner {
   display: flex;
-  padding: 2vw 2vw;
   gap: 4vw;
-  padding: 5vw 5vw 0 5vw;
-  align-items: center;
 }
 
 body.inicio section.banner img {
   height: 40vw;
   border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+  display: block;
 }
 
 body.inicio section.banner h1 {
-  padding: 3vw 0 3vw 0;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+  margin-bottom: 5vw;
 }
 
 body.inicio section.banner p {
-  padding: 3vw 0 3vw 0;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 body.inicio section.piramide {
   text-align: center;
-  padding: 5vw 5vw 0 5vw;
 }
 
 body.inicio section.piramide h2 {
   text-align: center;
-  padding: 5vw 0;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+  margin: 5vw 0;
 }
 
 body.inicio section.piramide img {
-  height: 75vw;
+  width: 95%;
+  text-align: center;
+  background-color: #f0c8a0;
+  padding: 17.5vw 2vw 2vw 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+  margin: 0 0 5vw 0;
 }
 
 body.inicio section.assuntos {
-  padding: 0 5vw 5vw 5vw;
   text-align: center;
 }
 
 body.inicio section.assuntos h2 {
-  padding-bottom: 5vw;
+  text-align: center;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 body.inicio section.assuntos div ul {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 5vw;
+  text-align: center;
+  background-color: #f0c8a0;
+  padding: 2.5vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+  margin: 5vw 0 0 0;
 }
 
 body.inicio section.assuntos div ul li {
@@ -758,7 +778,7 @@ body.criadores h1 {
   text-align: center;
 }
 
-body.criadores main{
+body.criadores main {
   margin: 5vw 10vw;
 }
 
@@ -792,7 +812,7 @@ body.fontes h1 {
   text-align: center;
 }
 
-body.fontes main{
+body.fontes main {
   margin: 5vw 10vw;
 }
 
@@ -812,6 +832,14 @@ body.fontes section {
 }
 
 @media only screen and (max-width: 600px) {
+  header {
+    padding: 1vw 2vw;
+  }
+
+  header img {
+    width: 5vw;
+  }
+
   h1 {
     font-size: 5vw;
   }
@@ -837,7 +865,7 @@ body.fontes section {
   }
 
   p {
-    font-family: "Libre Baskerville", serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 100;
     font-style: normal;
     font-size: 3vw;
@@ -894,10 +922,22 @@ body.fontes section {
 
   /* === Início === */
 
+  body.inicio main {
+    margin: 5vw 5vw;
+  }
+
+  body.inicio section.banner img {
+    height: 40vw;
+    border-radius: 2vw;
+    box-shadow: 0 1vw 2vw 1vw #0000009f;
+    display: none;
+  }
+
   body.inicio section.assuntos div ul {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 5vw;
+    padding: 5vw;
   }
 
   body.inicio section.assuntos div ul li {
@@ -915,7 +955,7 @@ body.fontes section {
   body.imperador main {
     margin: 5vw 5vw;
   }
-  
+
   /* === Senadores === */
 
   body.senadores main {
@@ -939,7 +979,7 @@ body.fontes section {
   body.homens-livres main {
     margin: 5vw 5vw;
   }
-  
+
   /* === Libertos === */
 
   body.libertos main {
@@ -968,5 +1008,10 @@ body.fontes section {
 
   body.fontes main {
     margin: 5vw 5vw;
+  }
+
+  footer img {
+    width: 7.5vw;
+    padding-right: 1.5vw;
   }
 }
