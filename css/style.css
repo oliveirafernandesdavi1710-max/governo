@@ -297,8 +297,32 @@ body.inicio section.assuntos div ul li.senadores {
   background-color: #0000005f;
 }
 
+body.inicio section.assuntos div ul li.generais {
+  background-image: url(../img/);
+  background-position: 0;
+  background-color: #0000005f;
+}
+
 body.inicio section.assuntos div ul li.patricios {
   background-image: url(../img/planos-de-fundo/patricio.png);
+  background-position: 0;
+  background-color: #0000005f;
+}
+
+body.inicio section.assuntos div ul li.clientes {
+  background-image: url(../img/);
+  background-position: 0;
+  background-color: #0000005f;
+}
+
+body.inicio section.assuntos div ul li.legiao {
+  background-image: url(../img/soldados.jpg);
+  background-position: 0;
+  background-color: #0000006f;
+}
+
+body.inicio section.assuntos div ul li.educadores {
+  background-image: url(../img/filosofos.jpeg);
   background-position: 0;
   background-color: #0000005f;
 }
@@ -438,6 +462,43 @@ body.patricios section.definicao li.imagem {
 }
 
 body.patricios section.explicacao {
+  text-align: center;
+  background-size: cover;
+  padding: 2vw;
+  border-radius: 2vw;
+}
+
+/* === Legião === */
+
+body.legiao {
+  text-align: center;
+  background-color: #f0b4789f;
+  background-image: url("../img/soldados.jpg");
+  background-size: cover;
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 100%;
+}
+
+body.legiao main {
+  margin: 5vw 10vw;
+}
+
+body.legiao h1 {
+  text-align: center;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+}
+
+body.legiao section.definicao li.imagem {
+  background-image: url("../img/julio\ acabate\ \(pássaro\).jpg");
+  background-position: 0 50%;
+}
+
+body.legiao section.explicacao {
   text-align: center;
   background-size: cover;
   padding: 2vw;
