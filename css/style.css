@@ -707,10 +707,11 @@ body.quiz form {
 }
 
 .enunciado {
-  font-weight: bold;
+  text-align: left;
   margin-bottom: 2vw;
   color: #000000;
-  font-size: 2vw;
+  font-size: 3vw;
+  font-family: Cinzel Decorative;
 }
 
 .alternativas-container {
@@ -721,10 +722,13 @@ body.quiz form {
 }
 
 .opcao-label {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 1.75vw;
   display: flex;
   align-items: center;
   color: white;
-  font-size: 2vw;
   background-color: #a8600f;
   gap: 2vw;
   padding: 2vw;
@@ -740,11 +744,12 @@ body.quiz form {
 }
 
 button#btn-enviar {
+  font-size: 1.75vw;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 2vw;
   background-color: #a8600f;
   color: white;
-  font-size: 2vw;
   border: none;
   border-radius: 8vw;
   cursor: pointer;
@@ -761,7 +766,8 @@ button#btn-enviar:hover {
 #resultado {
   margin-bottom: 5vw;
   text-align: center;
-  font-size: 2vw;
+  font-size: 3vw;
+  font-family: Cinzel Decorative;
 }
 
 .opcao-label.correta,
@@ -806,26 +812,6 @@ button#btn-enviar:hover {
 button#btn-enviar:disabled {
   opacity: 0.6;
   cursor: not-allowed;
-}
-
-button#btn-reiniciar {
-  text-align: center;
-  padding: 2vw;
-  margin-top: 2vw;
-  background-color: #a8600f;
-  color: white;
-  font-size: 2vw;
-  border: none;
-  border-radius: 8vw;
-  cursor: pointer;
-  width: 100%;
-  transition: background 0.25s;
-}
-
-button#btn-reiniciar:hover {
-  color: #000000;
-  background-color: #f0c8a0;
-  border: #a8600f solid 0.5vw;
 }
 
 /* === Criadores === */
@@ -1074,5 +1060,23 @@ body.fontes section {
   footer img {
     width: 7.5vw;
     padding-right: 1.5vw;
+  }
+
+  /* === Quiz ===*/
+
+  .enunciado {
+    font-size: 4.25vw;
+  }
+
+  .opcao-label {
+    font-size: 3vw;
+  }
+
+  button#btn-enviar {
+    font-size: 3vw;
+  }
+
+  #resultado {
+    font-size: 4.25vw;
   }
 }
