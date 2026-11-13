@@ -187,7 +187,15 @@ footer div {
 
 /* === Início === */
 
-body.inicio main {
+body.inicio main section.banner {
+  padding: 5vw 10vw;
+}
+
+body.inicio main section.piramide {
+  margin: 5vw 10vw;
+}
+
+body.inicio main section.assuntos {
   margin: 5vw 10vw;
 }
 
@@ -198,10 +206,20 @@ body.inicio {
 body.inicio section.banner {
   display: flex;
   gap: 4vw;
+  background-image: url(../img/planos-de-fundo/coliseu_fundo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 25%;
+  background-color: #0000003f;
+  background-blend-mode: color-burn;
 }
 
-body.inicio section.banner img {
-  height: 40vw;
+body.inicio section.banner div.imagem {
+  background-image: url(../img/coliseu_quadrado.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: auto;
   border-radius: 2vw;
   box-shadow: 0 1vw 2vw 1vw #0000009f;
   display: block;
@@ -286,7 +304,7 @@ body.inicio section.assuntos div ul li a h6 {
 }
 
 body.inicio section.assuntos div ul li.imperadores {
-  background-image: url(../img/planos-de-fundo/julio\ acabate\ \(pássaro\).png);
+  background-image: url(../img/planos-de-fundo/julio_acabate_pássaro.png);
   background-position: 0;
   background-color: #0000005f;
 }
@@ -352,7 +370,7 @@ body.inicio section.assuntos div ul li.escravos {
 }
 
 body.inicio section.assuntos div ul li.quiz {
-  background-image: url(../img/planos-de-fundo/filosofo\ \(quiz\).png);
+  background-image: url(../img/planos-de-fundo/filosofo-quiz.png);
   background-position: 0;
   background-color: #0000005f;
 }
@@ -362,7 +380,7 @@ body.inicio section.assuntos div ul li.quiz {
 body.imperador {
   text-align: center;
   background-color: #f0b4789f;
-  background-image: url("../img/planos-de-fundo/julio\ acabate\ \(pássaro\).png");
+  background-image: url("../img/planos-de-fundo/julio_acabate_pássaro.png");
   background-size: cover;
   background-blend-mode: screen;
   background-repeat: no-repeat;
@@ -383,7 +401,7 @@ body.imperador h1 {
 }
 
 body.imperador section.definicao li.imagem {
-  background-image: url("../img/julio\ acabate\ \(pássaro\).jpg");
+  background-image: url("../img/julio_acabate_pássaro.jpg");
   background-position: 0 50%;
 }
 
@@ -494,7 +512,7 @@ body.legiao h1 {
 }
 
 body.legiao section.definicao li.imagem {
-  background-image: url("../img/julio\ acabate\ \(pássaro\).jpg");
+  background-image: url("../img/julio_acabate_pássaro.jpg");
   background-position: 0 50%;
 }
 
@@ -658,7 +676,7 @@ body.escravos section.explicacao {
 body.quiz {
   text-align: center;
   background-color: #f0b4789f;
-  background-image: url("../img/planos-de-fundo/filosofo\ \(quiz\).png");
+  background-image: url("../img/planos-de-fundo/filosofo-quiz.png");
   background-size: cover;
   background-blend-mode: screen;
   background-repeat: no-repeat;
@@ -679,7 +697,7 @@ body.quiz h1 {
 }
 
 body.quiz section.definicao li.imagem {
-  background-image: url("../img/planos-de-fundo/filosofo\ \(quiz\).png");
+  background-image: url("../img/planos-de-fundo/filosofo-quiz.png");
   background-position: 0 50%;
 }
 
@@ -711,7 +729,7 @@ body.quiz form {
   margin-bottom: 2vw;
   color: #000000;
   font-size: 3vw;
-  font-family: Cinzel Decorative;
+  font-family: Cinzel Decorative, Arial, Helvetica, sans-serif;
 }
 
 .alternativas-container {
@@ -767,7 +785,7 @@ button#btn-enviar:hover {
   margin-bottom: 5vw;
   text-align: center;
   font-size: 3vw;
-  font-family: Cinzel Decorative;
+  font-family: Cinzel Decorative, Arial, Helvetica, sans-serif;
 }
 
 .opcao-label.correta,
@@ -969,15 +987,20 @@ body.fontes section {
 
   /* === Início === */
 
-  body.inicio main {
-    margin: 5vw 5vw;
+  body.inicio main section.banner {
+    padding: 5vw;
   }
 
-  body.inicio section.banner img {
-    height: 40vw;
-    border-radius: 2vw;
-    box-shadow: 0 1vw 2vw 1vw #0000009f;
+  body.inicio section.banner div.imagem {
     display: none;
+  }
+
+  body.inicio main section.piramide {
+    margin: 5vw;
+  }
+
+  body.inicio main section.assuntos {
+    margin: 5vw;
   }
 
   body.inicio section.assuntos div ul {
