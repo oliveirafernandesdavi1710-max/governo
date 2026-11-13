@@ -167,22 +167,48 @@ section.estudo-plus li img {
   width: 30vw;
 }
 
-footer {
+section.quase-footer {
   background-color: #f0b478;
   text-align: left;
   padding: 2vw;
 }
 
-footer img {
+section.quase-footer img {
   width: 5vw;
   padding-right: 1.5vw;
 }
 
-footer div {
+section.quase-footer div {
   padding-top: 0.5vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+section.banner-assuntos {
+  margin: 5vw 10vw;
+}
+
+section.definicao {
+  margin: 5vw 10vw;
+}
+
+section.explicacao {
+  margin: 5vw 10vw;
+}
+
+section.estudo-plus {
+  margin: 5vw 10vw;
+}
+
+section.quiz2 {
+    margin: 5vw 10vw;
+  }
+
+footer {
+  background-color: #f0b478;
+  text-align: center;
+  padding: 2vw;
 }
 
 /* === Início === */
@@ -388,10 +414,6 @@ body.imperador {
   background-position-y: 100%;
 }
 
-body.imperador main {
-  margin: 5vw 10vw;
-}
-
 body.imperador h1 {
   text-align: center;
   background-color: #f0c8a0;
@@ -423,10 +445,6 @@ body.senadores {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position-y: 100%;
-}
-
-body.senadores main {
-  margin: 5vw 10vw;
 }
 
 body.senadores h1 {
@@ -462,10 +480,6 @@ body.patricios {
   background-position-y: 100%;
 }
 
-body.patricios main {
-  margin: 5vw 10vw;
-}
-
 body.patricios h1 {
   text-align: center;
   background-color: #f0c8a0;
@@ -497,10 +511,6 @@ body.legiao {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position-y: 100%;
-}
-
-body.legiao main {
-  margin: 5vw 10vw;
 }
 
 body.legiao h1 {
@@ -536,10 +546,6 @@ body.plebe {
   background-position-y: 100%;
 }
 
-body.plebe main {
-  margin: 5vw 10vw;
-}
-
 body.plebe h1 {
   text-align: center;
   background-color: #f0c8a0;
@@ -571,10 +577,6 @@ body.homens-livres {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position-y: 100%;
-}
-
-body.homens-livres main {
-  margin: 5vw 10vw;
 }
 
 body.homens-livres h1 {
@@ -610,10 +612,6 @@ body.libertos {
   background-position-y: 100%;
 }
 
-body.libertos main {
-  margin: 5vw 10vw;
-}
-
 body.libertos h1 {
   text-align: center;
   background-color: #f0c8a0;
@@ -647,10 +645,6 @@ body.escravos {
   background-position-y: 100%;
 }
 
-body.escravos main {
-  margin: 5vw 10vw;
-}
-
 body.escravos h1 {
   text-align: center;
   background-color: #f0c8a0;
@@ -682,10 +676,6 @@ body.quiz {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position-y: 100%;
-}
-
-body.quiz main {
-  margin: 5vw 10vw;
 }
 
 body.quiz h1 {
@@ -729,7 +719,11 @@ body.quiz form {
   margin-bottom: 2vw;
   color: #000000;
   font-size: 3vw;
-  font-family: Cinzel Decorative, Arial, Helvetica, sans-serif;
+  font-family:
+    Cinzel Decorative,
+    Arial,
+    Helvetica,
+    sans-serif;
 }
 
 .alternativas-container {
@@ -750,7 +744,7 @@ body.quiz form {
   background-color: #a8600f;
   gap: 2vw;
   padding: 2vw;
-  border-radius: 20vw;
+  border-radius: 2vw;
   cursor: pointer;
   transition: background 0.25s;
 }
@@ -769,7 +763,7 @@ button#btn-enviar {
   background-color: #a8600f;
   color: white;
   border: none;
-  border-radius: 8vw;
+  border-radius: 2vw;
   cursor: pointer;
   width: 100%;
   transition: background 0.25s;
@@ -785,7 +779,11 @@ button#btn-enviar:hover {
   margin-bottom: 5vw;
   text-align: center;
   font-size: 3vw;
-  font-family: Cinzel Decorative, Arial, Helvetica, sans-serif;
+  font-family:
+    Cinzel Decorative,
+    Arial,
+    Helvetica,
+    sans-serif;
 }
 
 .opcao-label.correta,
@@ -815,7 +813,7 @@ button#btn-enviar:hover {
 
 .link-estudo {
   margin-top: 2vw;
-  font-size: 1.8vw;
+  font-size: 1.75vw;
 }
 
 .link-estudo a {
@@ -936,16 +934,16 @@ body.fontes section {
     font-size: 3vw;
   }
 
-  footer img {
-    width: 3vw;
+  section.quase-footer img {
+    width: 7.5vw;
     padding-right: 1.5vw;
   }
 
-  footer p {
+  section.quase-footer p {
     font-size: 2.75vw;
   }
 
-  footer div h2 {
+  section.quase-footer div h2 {
     font-size: 4vw;
   }
 
@@ -985,6 +983,26 @@ body.fontes section {
     box-shadow: 0 1vw 2vw 1vw #0000009f;
   }
 
+  section.banner-assuntos {
+    margin: 5vw;
+  }
+
+  section.definicao {
+    margin: 5vw;
+  }
+
+  section.explicacao {
+    margin: 5vw;
+  }
+
+  section.estudo-plus {
+    margin: 5vw;
+  }
+
+  section.quiz2 {
+    margin: 5vw;
+  }
+
   /* === Início === */
 
   body.inicio main section.banner {
@@ -1020,71 +1038,6 @@ body.fontes section {
     box-shadow: 0 1vw 2vw 1vw #0000009f;
   }
 
-  /* === Imperador === */
-
-  body.imperador main {
-    margin: 5vw 5vw;
-  }
-
-  /* === Senadores === */
-
-  body.senadores main {
-    margin: 5vw 5vw;
-  }
-
-  /* === Patricios === */
-
-  body.patricios main {
-    margin: 5vw 5vw;
-  }
-
-  /* === Plebe === */
-
-  body.plebe main {
-    margin: 5vw 5vw;
-  }
-
-  /* === Homens Livres === */
-
-  body.homens-livres main {
-    margin: 5vw 5vw;
-  }
-
-  /* === Libertos === */
-
-  body.libertos main {
-    margin: 5vw 5vw;
-  }
-
-  /* === Escravos === */
-
-  body.escravos main {
-    margin: 5vw 5vw;
-  }
-
-  /* === Quiz === */
-
-  body.quiz main {
-    margin: 5vw 5vw;
-  }
-
-  /* === Criadores === */
-
-  body.criadores main {
-    margin: 5vw 5vw;
-  }
-
-  /* === Fontes === */
-
-  body.fontes main {
-    margin: 5vw 5vw;
-  }
-
-  footer img {
-    width: 7.5vw;
-    padding-right: 1.5vw;
-  }
-
   /* === Quiz ===*/
 
   .enunciado {
@@ -1101,5 +1054,9 @@ body.fontes section {
 
   #resultado {
     font-size: 4.25vw;
+  }
+
+  .link-estudo {
+    font-size: 3vw;
   }
 }

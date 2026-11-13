@@ -133,6 +133,44 @@ const bancoDePerguntas = [
     textoLink: "Veja mais em: IMPERADORES",
     link: "index.html#assuntos",
   },
+  {
+    id: "p11",
+    enunciados: ["O que eram os Patronos?"],
+    alternativasDisponiveis: [
+      { texto: "Eram clientes dos imperadores que ajudavam na administração de bens e serviços.", correta: false },
+      { texto: "Eram um protetor e patrocinador dos denominados clientes.", correta: true },
+      { texto: "Eram plebeus que serviam a população nobre.", correta: false },
+    ],
+    qtdAlternativasExibir: 3,
+    textoLink: "Veja mais em: CLIENTES",
+    link: "index.html#assuntos",
+  },
+  {
+    id: "p12",
+    enunciados: ["O que era a cliantela?"],
+    alternativasDisponiveis: [
+      { texto: "Era a relação entre um patrono e um cliente.", correta: true },
+      { texto: "Era um nome dado para um grupo de escravos do império", correta: false },
+      { texto: "Era como os comerciantes eram chamados em cidades exteriores.", correta: false },
+      { texto: "Era a relação que o imperador tinha com os clientes do reino.", correta: false },
+    ],
+    qtdAlternativasExibir: 4,
+    textoLink: "Veja mais em: CLIENTES",
+    link: "index.html#assuntos",
+  },
+  {
+    id: "p13",
+    enunciados: ["Quais benefícios um patrono poderia dar para seu cliente?"],
+    alternativasDisponiveis: [
+      { texto: "Empréstimos, acordos comerciais, representação numa corte e apoio em cargos políticos.", correta: true },
+      { texto: "Descontos em lojas, empréstimos, redução de pena e diminuição nos impostos.", correta: false },
+      { texto: "Redução de pena, apoios comerciais, apoio em relação externas e apoio militar.", correta: false },
+      { texto: "Apoio comercial, diminuição de imposto, apoio militar, regulamentação das terras e apoio político.", correta: false },
+    ],
+    qtdAlternativasExibir: 4,
+    textoLink: "Veja mais em: CLIENTES",
+    link: "index.html#assuntos",
+  },
 ];
 
 // Função utilitária para embaralhar um array (Algoritmo de Fisher-Yates)
