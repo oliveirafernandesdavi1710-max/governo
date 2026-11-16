@@ -186,15 +186,15 @@ section.quase-footer div {
 }
 
 section.banner-assuntos {
-  margin: 5vw 10vw;
+  margin: 5vw 10vw 0vw;
 }
 
 section.definicao {
-  margin: 5vw 10vw;
+  margin: 0vw 10vw;
 }
 
 section.explicacao {
-  margin: 5vw 10vw;
+  margin: 0 10vw 5vw;
 }
 
 section.estudo-plus {
@@ -202,7 +202,7 @@ section.estudo-plus {
 }
 
 section.quiz2 {
-    margin: 5vw 10vw;
+    margin: 0vw 10vw 5vw;
   }
 
 footer {
@@ -279,14 +279,18 @@ body.inicio section.piramide h2 {
   margin: 5vw 0;
 }
 
-body.inicio section.piramide img {
-  width: 95%;
+body.inicio section.piramide div {
   text-align: center;
   background-color: #f0c8a0;
-  padding: 17.5vw 2vw 2vw 2vw;
+  background-size: auto;
   border-radius: 2vw;
   box-shadow: 0 1vw 2vw 1vw #0000009f;
-  margin: 0 0 5vw 0;
+}
+
+body.inicio section.piramide div img {
+  width: 65%;
+  padding: 3vw;
+  border-radius: 2vw;
 }
 
 body.inicio section.assuntos {
@@ -691,10 +695,6 @@ body.quiz section.definicao li.imagem {
   background-position: 0 50%;
 }
 
-body.quiz section.banner-assuntos p {
-  padding-bottom: 5vw;
-}
-
 body.quiz section.quiz2 {
   text-align: center;
   background-size: cover;
@@ -837,31 +837,33 @@ body.criadores {
 }
 
 body.criadores h1 {
-  padding: 5vw 0;
   text-align: center;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.criadores main {
+body.criadores main section.criadores{
   margin: 5vw 10vw;
 }
 
 body.criadores main li {
   display: flex;
   gap: 1.5vw;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  margin: 6vw 0;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.criadores main img {
+body.criadores main ul li img {
   width: 30vw;
   height: 30vw;
-  padding: 1.5vw 0;
-}
-
-body.criadores main section.criadores ul li a img {
+  margin: 1.5vw;
   border-radius: 2vw;
-}
-
-body.criadores section {
-  padding: 3vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 /* === Fontes === */
@@ -871,27 +873,33 @@ body.fontes {
 }
 
 body.fontes h1 {
-  padding: 5vw 0;
   text-align: center;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.fontes main {
+body.fontes main section.fontes{
   margin: 5vw 10vw;
 }
 
 body.fontes main li {
   display: flex;
   gap: 1.5vw;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  margin: 6vw 0;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.fontes main img {
+body.fontes main ul li img {
   width: 30vw;
   height: 30vw;
-  padding: 1.5vw 0;
-}
-
-body.fontes section {
-  padding: 3vw;
+  margin: 1.5vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
 @media only screen and (max-width: 600px) {
@@ -1000,7 +1008,7 @@ body.fontes section {
   }
 
   section.quiz2 {
-    margin: 5vw;
+    margin: 0 5vw 5vw;
   }
 
   /* === Início === */
@@ -1039,6 +1047,10 @@ body.fontes section {
   }
 
   /* === Quiz ===*/
+
+  body.quiz section.definicao {
+  margin: 0vw 5vw;
+}
 
   .enunciado {
     font-size: 4.25vw;
