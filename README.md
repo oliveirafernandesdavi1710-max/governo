@@ -563,12 +563,27 @@ Data:
 
 Assunto:
 
-Divisão de tarefas e criação da responsividade do site.
+Criação da responsividade do site e adição de novas páginas.
 
-Adição de novas páginas
+
 Ausentes:
 
 Sem ausentes.
+
+
+Divisão de tarefas:
+
+Matheus Araújo dos Santos: Responsividade do site.
+
+Gabriel Vicente Ziele: Página da legião.
+
+Fábio Sebastian Corrêa Marques: Página dos educadores.
+
+Rian Luka Gazziero da Rosa: Página dos clientes.
+
+Davi de Oliveira Fernandes: Página dos generais.
+
+João Pedro da Rosa: Página dos generais.
 
 
 
@@ -607,3 +622,22 @@ Aprimoramento das novas páginas e finalização da responsividade do site.
 Ausentes:
 
 Sem ausentes.
+
+
+
+---
+# Ata 24
+
+Data:
+
+17/11/2026
+
+
+Assunto:
+
+Finalização das novas páginas e criação da janela pop-up.
+
+
+Ausentes:
+
+Rian Luka Gazziero da Rosa (Sem justificativa).
