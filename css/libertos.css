@@ -1,0 +1,33 @@
+/* === Libertos === */
+
+body.libertos {
+  text-align: center;
+  background-color: #f0b4787f;
+  background-image: url("../img/planos-de-fundo/liberto.png");
+  background-size: cover;
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 100%;
+}
+
+body.libertos h1 {
+  text-align: center;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+}
+
+body.libertos section.definicao li.imagem {
+  background-image: url("../img/liberto.jpg");
+  background-position: 0 10%;
+}
+
+body.libertos section.explicacao {
+  text-align: center;
+  background-size: cover;
+  padding: 2vw;
+  border-radius: 2vw;
+}
+
