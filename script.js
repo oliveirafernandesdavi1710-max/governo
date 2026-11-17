@@ -171,6 +171,58 @@ const bancoDePerguntas = [
     textoLink: "Veja mais em: CLIENTES",
     link: "index.html#assuntos",
   },
+   {
+    id: "p14",
+    enunciados: ["Como eram os métodos de ensino dos Ludis Magister?"],
+    alternativasDisponiveis: [
+      { texto: "Ensinamento por meios severos baseados em memorização e castigos para ensinar alfabetização.", correta: true },
+      { texto: "Eram baseados na delicadeza e na prática, ensinando de um jeito educado.", correta: false },
+      { texto: "Eram propositalmente brutais, chegando a ter agressões físicas aos alunos com o objetivo de preparar os mesmos para a guerra.", correta: false },
+      { texto: "Eles entregavam armas para os alunos treinarem para a guerra.", correta: false },
+    ],
+    qtdAlternativasExibir: 4,
+    textoLink: "Veja mais em: EDUCADORES",
+    link: "index.html#assuntos",
+  },
+ {
+    id: "p15",
+    enunciados: ["Qual era a diferença entre o Ludi Magister e o Retor?"],
+    alternativasDisponiveis: [
+      { texto: "O retor era responsável por alunos mais velhos e ensina assuntos mais complexos, como retórica e argumentação.", correta: true },
+      { texto: "Nenhuma. É apenas uma diferença insignificante de nomenclatura.", correta: false },
+      { texto: "O ludi magister não recebe salário pela sua profissão e faz tudo pela educação.", correta: false },
+      { texto: "O retor não é do magistrado, assim ensinando menos pessoas.", correta: false },
+    ],
+    qtdAlternativasExibir: 4,
+    textoLink: "Veja mais em: EDUCADORES",
+    link: "index.html#assuntos",
+  },
+ {
+    id: "p16",
+   enunciados: ["Qual era a principal arma branca usada pela legião romana?"],
+    alternativasDisponiveis: [
+      { texto: "Gládio.", correta: true },
+      { texto: "Katana.", correta: false },
+      { texto: "Machado.", correta: false },
+      { texto: "Soco inglês.", correta: false },
+    ],
+    qtdAlternativasExibir: 4,
+    textoLink: "Veja mais em: LEGIÃO",
+    link: "index.html#assuntos",
+  },
+ {
+    id: "p17",
+    enunciados: ["Quantos soldados Roma possuía no final do império?"],
+    alternativasDisponiveis: [
+      { texto: "5200.", correta: true },
+      { texto: "6580.", correta: false },
+      { texto: "4700.", correta: false },
+      { texto: "4600.", correta: false },
+    ],
+    qtdAlternativasExibir: 4,
+    textoLink: "Veja mais em: LEGIÃO",
+    link: "index.html#assuntos",
+  },
 ];
 
 // Função utilitária para embaralhar um array (Algoritmo de Fisher-Yates)
