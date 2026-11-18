@@ -206,6 +206,10 @@ body.inicio section.assuntos div ul li.quiz {
     body.inicio main section.piramide {
         margin: 5vw;
     }
+    
+    body.inicio section.piramide div img {
+    width: 85%;
+    }
 
     body.inicio main section.assuntos {
         margin: 5vw;
