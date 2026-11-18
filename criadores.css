@@ -1,0 +1,35 @@
+/* === Criadores === */
+
+body.criadores {
+  background-color: #f6e3cf;
+}
+
+body.criadores h1 {
+  text-align: center;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+}
+
+body.criadores main section.criadores{
+  margin: 5vw 10vw;
+}
+
+body.criadores main li {
+  display: flex;
+  gap: 1.5vw;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  margin: 6vw 0;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+}
+
+body.criadores main ul li img {
+  width: 30vw;
+  height: 30vw;
+  margin: 1.5vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+}

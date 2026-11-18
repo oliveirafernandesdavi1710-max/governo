@@ -1,0 +1,33 @@
+/* === Clientes === */
+
+body.clientes {
+  text-align: center;
+  background-color: #f0b4787f;
+  background-image: url("../img/image\ 5.jpg");
+  background-size: cover;
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 100%;
+}
+
+body.clientes h1 {
+  text-align: center;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+}
+
+body.clientes section.definicao li.imagem {
+  background-image: url("../img/image\ 5.jpg");
+  background-position: 0;
+}
+
+body.clientes section.explicacao {
+  text-align: center;
+  background-size: cover;
+  padding: 2vw;
+  border-radius: 2vw;
+}
+
