@@ -3,7 +3,7 @@
 body.generais {
   text-align: center;
   background-color: #f0b4789f;
-  background-image: url();
+  background-image: url(../img/generais.png);
   background-size: cover;
   background-blend-mode: screen;
   background-repeat: no-repeat;
@@ -20,7 +20,7 @@ body.generais h1 {
 }
 
 body.generais section.definicao li.imagem {
-  background-image: url();
+  background-image: url(../img/generais.png);
   background-position: 0 50%;
 }
 
