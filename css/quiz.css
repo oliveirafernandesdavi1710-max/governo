@@ -169,10 +169,12 @@ button#btn-enviar:disabled {
 
     .enunciado {
         font-size: 4.25vw;
+        font-weight: 600;
     }
 
     .opcao-label {
-        font-size: 3vw;
+        font-size: 3.5vw;
+        font-weight: 400;
     }
 
     button#btn-enviar {
