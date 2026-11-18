@@ -1,0 +1,121 @@
+/* === Legião === */
+
+body.legiao {
+  text-align: center;
+  background-color: #f0b4789f;
+  background-image: url("../img/soldados.jpg");
+  background-size: cover;
+  background-blend-mode: screen;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: 100%;
+}
+
+body.legiao h1 {
+  text-align: center;
+  background-color: #f0c8a0;
+  padding: 2vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+}
+
+body.legiao section.definicao li.imagem {
+  background-image: url("../img/soldados.jpg");
+  background-position: 0 50%;
+}
+
+body.legiao section.explicacao {
+  text-align: center;
+  background-size: cover;
+  padding: 2vw;
+  border-radius: 2vw;
+  margin-bottom: 2.5vw;
+}
+
+body.legiao section.armas-legiao {
+  margin: 0vw 10vw;
+}
+
+body.legiao section.estudo-plus {
+  margin-top: 2.5vw;
+}
+
+div.imagens-legiao ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+div.imagens-legiao li.imagem {
+  width: auto;
+  height: 25vw;
+  margin: 2.5vw 5vw 2.5vw 0;
+  border-radius: 2vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+}
+
+div.imagens-legiao li.escrita {
+  width: auto;
+  height: auto;
+  text-align: left;
+  background-color: #f0c8a0;
+  background-size: cover;
+  margin: 2.5vw 0 2.5vw 0;
+  padding: 3vw;
+  border-radius: 2vw;
+  box-shadow: 0 1vw 2vw 1vw #0000009f;
+}
+
+body.legiao div.imagem1 li.imagem {
+  background-image: url("../img/galeA.jpg");
+  background-position: 0 50%;
+}
+
+body.legiao div.imagem2 li.imagem {
+  background-image: url("../img/escudo.jpg");
+  background-position: 0 50%;
+}
+
+body.legiao div.imagem3 li.imagem {
+  background-image: url("../img/gladio.jpg");
+  background-position: 0 50%;
+}
+
+body.legiao div.imagem4 li.imagem {
+  background-image: url("../img/pilo.jpeg");
+  background-position: 0 50%;
+}
+
+@media screen {
+  body.legiao section.armas-legiao {
+  margin: 0vw 5vw;
+}
+
+  div.imagens-legiao ul {
+    display: block;
+  }
+
+  div.imagens-legiao li.imagem {
+    width: auto;
+    height: 50vw;
+    margin: 5vw 0;
+    border-radius: 2vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 1vw 2vw 1vw #0000009f;
+  }
+
+  div.imagens-legiao li.escrita {
+    width: auto;
+    height: auto;
+    text-align: left;
+    background-color: #f0c8a0;
+    background-size: cover;
+    margin: 5vw 0;
+    padding: 3vw;
+    border-radius: 2vw;
+    box-shadow: 0 1vw 2vw 1vw #0000009f;
+  }
+}
+

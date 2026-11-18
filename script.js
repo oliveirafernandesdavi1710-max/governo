@@ -4,15 +4,25 @@ const bancoDePerguntas = [
   {
     id: "p1",
     // Opções de enunciado para escolher uma aleatoriamente
-    enunciados: [
-      "Qual a diferença de um plebeu para um liberto?",
-    ],
+    enunciados: ["Qual a diferença de um plebeu para um liberto?"],
     // Lista de possíveis alternativas
     alternativasDisponiveis: [
       { texto: "Os libertos não possuíam bens materiais.", correta: false },
-      { texto: "Os libertos eram ex soldados de guerra que foram liberados do campo de batalha.", correta: false },
-      { texto: "Os nomes são sinonimos e não possuem nenhuma diferença de um ao outro.", correta: false },
-      { texto: "Os libertos eram ex escravos que adquiriram liberdade com pecúlio ou por bom desempenho no trabalho.", correta: true },
+      {
+        texto:
+          "Os libertos eram ex soldados de guerra que foram liberados do campo de batalha.",
+        correta: false,
+      },
+      {
+        texto:
+          "Os nomes são sinonimos e não possuem nenhuma diferença de um ao outro.",
+        correta: false,
+      },
+      {
+        texto:
+          "Os libertos eram ex escravos que adquiriram liberdade com pecúlio ou por bom desempenho no trabalho.",
+        correta: true,
+      },
     ],
     // Quantidade de botões/alternativas que devem aparecer nesta pergunta
     qtdAlternativasExibir: 4,
@@ -21,14 +31,24 @@ const bancoDePerguntas = [
   },
   {
     id: "p2",
-    enunciados: [
-      "O que é um questor?",
-    ],
+    enunciados: ["O que é um questor?"],
     alternativasDisponiveis: [
       { texto: "Uma função que atua como oficial de guerra", correta: true },
-      { texto: "A função mais alta do cursus honorum, feita para seguir mandatos de um ano.", correta: false },
-      { texto: "É uma função comum que servia para coleta de impostos e criação de algumas leis.", correta: false },
-      { texto: "É uma função administrativa ocupada por senadores feita para administrar o povo.", correta: false },
+      {
+        texto:
+          "A função mais alta do cursus honorum, feita para seguir mandatos de um ano.",
+        correta: false,
+      },
+      {
+        texto:
+          "É uma função comum que servia para coleta de impostos e criação de algumas leis.",
+        correta: false,
+      },
+      {
+        texto:
+          "É uma função administrativa ocupada por senadores feita para administrar o povo.",
+        correta: false,
+      },
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: SENADORES",
@@ -38,10 +58,26 @@ const bancoDePerguntas = [
     id: "p3",
     enunciados: ["Como surgiu a plebe?"],
     alternativasDisponiveis: [
-      { texto: "A plebe surgiu a partir de estrangeiros escravizados que foram trazidos para Roma.", correta: true },
-      { texto: "A plebe surgiu logo após a abolição da escravidão em Roma, quando todos os antigos escravos receberam terras do governo e o direito de votar. ", correta: false },
-      { texto: "A classe dos plebeus foi criada por um decreto do primeiro rei de Roma, Rômulo, para dividir oficialmente os cidadãos mais ricos dos mais pobres.", correta: false },
-      { texto: "Acredita-se que foi composta por povos conquistados, antigos clientes e estrangeiros protegidos pelo Estado. Durante a Monarquia Romana.", correta: false },
+      {
+        texto:
+          "A plebe surgiu a partir de estrangeiros escravizados que foram trazidos para Roma.",
+        correta: true,
+      },
+      {
+        texto:
+          "A plebe surgiu logo após a abolição da escravidão em Roma, quando todos os antigos escravos receberam terras do governo e o direito de votar. ",
+        correta: false,
+      },
+      {
+        texto:
+          "A classe dos plebeus foi criada por um decreto do primeiro rei de Roma, Rômulo, para dividir oficialmente os cidadãos mais ricos dos mais pobres.",
+        correta: false,
+      },
+      {
+        texto:
+          "Acredita-se que foi composta por povos conquistados, antigos clientes e estrangeiros protegidos pelo Estado. Durante a Monarquia Romana.",
+        correta: false,
+      },
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: PLEBE",
@@ -62,9 +98,21 @@ const bancoDePerguntas = [
     id: "p5",
     enunciados: ["Como o Império Romano tratava os escravos?"],
     alternativasDisponiveis: [
-      { texto: "Os escravos eram como propriedade de seus donos, trabalhando como agricultores, mineradores ou em serviços domésticos sem direitos civis. A escravidão não era sobre 'raça' no império romano, era sobre conquistas militares.", correta: true },
-      { texto: "Tratavam com respeito. Todos os escravos eram semi-livres podendo sair nos fins de semana.", correta: false },
-      { texto: "Os escravos eram tratados como inimigo do Estados. Todos os escravos eram presos quando se tornavam-se escravos.", correta: false },
+      {
+        texto:
+          "Os escravos eram como propriedade de seus donos, trabalhando como agricultores, mineradores ou em serviços domésticos sem direitos civis. A escravidão não era sobre 'raça' no império romano, era sobre conquistas militares.",
+        correta: true,
+      },
+      {
+        texto:
+          "Tratavam com respeito. Todos os escravos eram semi-livres podendo sair nos fins de semana.",
+        correta: false,
+      },
+      {
+        texto:
+          "Os escravos eram tratados como inimigo do Estados. Todos os escravos eram presos quando se tornavam-se escravos.",
+        correta: false,
+      },
     ],
     qtdAlternativasExibir: 3,
     textoLink: "Veja mais em: ESCRAVOS",
@@ -72,11 +120,24 @@ const bancoDePerguntas = [
   },
   {
     id: "p6",
-    enunciados: ["Qual a ordem correta das classes da pirâmide social do império romano, analisando da classe mais baixa até a classe mais alta?"],
+    enunciados: [
+      "Qual a ordem correta das classes da pirâmide social do império romano, analisando da classe mais baixa até a classe mais alta?",
+    ],
     alternativasDisponiveis: [
-      { texto: "Imperador, escravos, plebe, patrícios, libertos , senadores e homens livres.", correta: false },
-      { texto: "Escravos, libertos, plebe, senadores, patrícios e imperador.", correta: false },
-      { texto: "Escravos, libertos, homens livres, plebe, patrícios, senadores e imperador.", correta: true },
+      {
+        texto:
+          "Imperador, escravos, plebe, patrícios, libertos , senadores e homens livres.",
+        correta: false,
+      },
+      {
+        texto: "Escravos, libertos, plebe, senadores, patrícios e imperador.",
+        correta: false,
+      },
+      {
+        texto:
+          "Escravos, libertos, homens livres, plebe, patrícios, senadores e imperador.",
+        correta: true,
+      },
     ],
     qtdAlternativasExibir: 3,
     textoLink: "Veja mais em: INÍCIO",
@@ -86,10 +147,17 @@ const bancoDePerguntas = [
     id: "p7",
     enunciados: ["O que eram os patrícios?"],
     alternativasDisponiveis: [
-      { texto: "Eram filhos do reis que tinham algum tipo de cargo político.", correta: false },
+      {
+        texto: "Eram filhos do reis que tinham algum tipo de cargo político.",
+        correta: false,
+      },
       { texto: "Eram pessoas que tinham cargos na igreja.", correta: false },
       { texto: "Eram programadores reais do imperador.", correta: false },
-      { texto: "Eram descendentes de antigas famílias de Roma que obtiveram grande poder.", correta: true },
+      {
+        texto:
+          "Eram descendentes de antigas famílias de Roma que obtiveram grande poder.",
+        correta: true,
+      },
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: PATRÍCIOS",
@@ -101,7 +169,10 @@ const bancoDePerguntas = [
     alternativasDisponiveis: [
       { texto: "Servir ao imperador e mandar nos escravos.", correta: false },
       { texto: "Trabalhar no senado e na agricultura.", correta: false },
-      { texto: "Trabalhar no comércio, agricultura e artesanato.", correta: true },
+      {
+        texto: "Trabalhar no comércio, agricultura e artesanato.",
+        correta: true,
+      },
     ],
     qtdAlternativasExibir: 3,
     textoLink: "Veja mais em: PLEBE",
@@ -109,7 +180,9 @@ const bancoDePerguntas = [
   },
   {
     id: "p9",
-    enunciados: ["Qual são as três etapas necessárias para se tornar um senador romano?"],
+    enunciados: [
+      "Qual são as três etapas necessárias para se tornar um senador romano?",
+    ],
     alternativasDisponiveis: [
       { texto: "Faculdade, diploma e mestrado.", correta: false },
       { texto: "Questores, pretores e cônsul.", correta: true },
@@ -125,9 +198,19 @@ const bancoDePerguntas = [
     enunciados: ["O que era necessário para se tornar um imperador romano?"],
     alternativasDisponiveis: [
       { texto: "Era necessário anexar uma cidade.", correta: false },
-      { texto: "Era necessário ser reconhecido pelo exército ou pelo senado.", correta: true },
-      { texto: "Era necessário ser o mais votado pela população.", correta: false },
-      { texto: "Era necessário entrar em uma luta contra o antigo imperador, quem vencer se torna o novo imperador.", correta: false },
+      {
+        texto: "Era necessário ser reconhecido pelo exército ou pelo senado.",
+        correta: true,
+      },
+      {
+        texto: "Era necessário ser o mais votado pela população.",
+        correta: false,
+      },
+      {
+        texto:
+          "Era necessário entrar em uma luta contra o antigo imperador, quem vencer se torna o novo imperador.",
+        correta: false,
+      },
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: IMPERADORES",
@@ -137,8 +220,15 @@ const bancoDePerguntas = [
     id: "p11",
     enunciados: ["O que eram os Patronos?"],
     alternativasDisponiveis: [
-      { texto: "Eram clientes dos imperadores que ajudavam na administração de bens e serviços.", correta: false },
-      { texto: "Eram um protetor e patrocinador dos denominados clientes.", correta: true },
+      {
+        texto:
+          "Eram clientes dos imperadores que ajudavam na administração de bens e serviços.",
+        correta: false,
+      },
+      {
+        texto: "Eram um protetor e patrocinador dos denominados clientes.",
+        correta: true,
+      },
       { texto: "Eram plebeus que serviam a população nobre.", correta: false },
     ],
     qtdAlternativasExibir: 3,
@@ -150,9 +240,18 @@ const bancoDePerguntas = [
     enunciados: ["O que era a cliantela?"],
     alternativasDisponiveis: [
       { texto: "Era a relação entre um patrono e um cliente.", correta: true },
-      { texto: "Era um nome dado para um grupo de escravos do império", correta: false },
-      { texto: "Era como os comerciantes eram chamados em cidades exteriores.", correta: false },
-      { texto: "Era a relação que o imperador tinha com os clientes do reino.", correta: false },
+      {
+        texto: "Era um nome dado para um grupo de escravos do império",
+        correta: false,
+      },
+      {
+        texto: "Era como os comerciantes eram chamados em cidades exteriores.",
+        correta: false,
+      },
+      {
+        texto: "Era a relação que o imperador tinha com os clientes do reino.",
+        correta: false,
+      },
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: CLIENTES",
@@ -162,44 +261,90 @@ const bancoDePerguntas = [
     id: "p13",
     enunciados: ["Quais benefícios um patrono poderia dar para seu cliente?"],
     alternativasDisponiveis: [
-      { texto: "Empréstimos, acordos comerciais, representação numa corte e apoio em cargos políticos.", correta: true },
-      { texto: "Descontos em lojas, empréstimos, redução de pena e diminuição nos impostos.", correta: false },
-      { texto: "Redução de pena, apoios comerciais, apoio em relação externas e apoio militar.", correta: false },
-      { texto: "Apoio comercial, diminuição de imposto, apoio militar, regulamentação das terras e apoio político.", correta: false },
+      {
+        texto:
+          "Empréstimos, acordos comerciais, representação numa corte e apoio em cargos políticos.",
+        correta: true,
+      },
+      {
+        texto:
+          "Descontos em lojas, empréstimos, redução de pena e diminuição nos impostos.",
+        correta: false,
+      },
+      {
+        texto:
+          "Redução de pena, apoios comerciais, apoio em relação externas e apoio militar.",
+        correta: false,
+      },
+      {
+        texto:
+          "Apoio comercial, diminuição de imposto, apoio militar, regulamentação das terras e apoio político.",
+        correta: false,
+      },
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: CLIENTES",
     link: "index.html#assuntos",
   },
-   {
+  {
     id: "p14",
     enunciados: ["Como eram os métodos de ensino dos Ludis Magister?"],
     alternativasDisponiveis: [
-      { texto: "Ensinamento por meios severos baseados em memorização e castigos para ensinar alfabetização.", correta: true },
-      { texto: "Eram baseados na delicadeza e na prática, ensinando de um jeito educado.", correta: false },
-      { texto: "Eram propositalmente brutais, chegando a ter agressões físicas aos alunos com o objetivo de preparar os mesmos para a guerra.", correta: false },
-      { texto: "Eles entregavam armas para os alunos treinarem para a guerra.", correta: false },
+      {
+        texto:
+          "Ensinamento por meios severos baseados em memorização e castigos para ensinar alfabetização.",
+        correta: true,
+      },
+      {
+        texto:
+          "Eram baseados na delicadeza e na prática, ensinando de um jeito educado.",
+        correta: false,
+      },
+      {
+        texto:
+          "Eram propositalmente brutais, chegando a ter agressões físicas aos alunos com o objetivo de preparar os mesmos para a guerra.",
+        correta: false,
+      },
+      {
+        texto: "Eles entregavam armas para os alunos treinarem para a guerra.",
+        correta: false,
+      },
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: EDUCADORES",
     link: "index.html#assuntos",
   },
- {
+  {
     id: "p15",
     enunciados: ["Qual era a diferença entre o Ludi Magister e o Retor?"],
     alternativasDisponiveis: [
-      { texto: "O retor era responsável por alunos mais velhos e ensina assuntos mais complexos, como retórica e argumentação.", correta: true },
-      { texto: "Nenhuma. É apenas uma diferença insignificante de nomenclatura.", correta: false },
-      { texto: "O ludi magister não recebe salário pela sua profissão e faz tudo pela educação.", correta: false },
-      { texto: "O retor não é do magistrado, assim ensinando menos pessoas.", correta: false },
+      {
+        texto:
+          "O retor era responsável por alunos mais velhos e ensina assuntos mais complexos, como retórica e argumentação.",
+        correta: true,
+      },
+      {
+        texto:
+          "Nenhuma. É apenas uma diferença insignificante de nomenclatura.",
+        correta: false,
+      },
+      {
+        texto:
+          "O ludi magister não recebe salário pela sua profissão e faz tudo pela educação.",
+        correta: false,
+      },
+      {
+        texto: "O retor não é do magistrado, assim ensinando menos pessoas.",
+        correta: false,
+      },
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: EDUCADORES",
     link: "index.html#assuntos",
   },
- {
+  {
     id: "p16",
-   enunciados: ["Qual era a principal arma branca usada pela legião romana?"],
+    enunciados: ["Qual era a principal arma branca usada pela legião romana?"],
     alternativasDisponiveis: [
       { texto: "Gládio.", correta: true },
       { texto: "Katana.", correta: false },
@@ -210,7 +355,7 @@ const bancoDePerguntas = [
     textoLink: "Veja mais em: LEGIÃO",
     link: "index.html#assuntos",
   },
- {
+  {
     id: "p17",
     enunciados: ["Quantos soldados Roma possuía no final do império?"],
     alternativasDisponiveis: [
@@ -249,7 +394,10 @@ function gerarQuiz() {
   container.innerHTML = "";
 
   // Randomiza a ordem das perguntas no formulário
-  const perguntasEmbaralhadas = embaralhar(bancoDePerguntas).slice(0, totalPerguntas);
+  const perguntasEmbaralhadas = embaralhar(bancoDePerguntas).slice(
+    0,
+    totalPerguntas,
+  );
   totalPerguntasExibidas = perguntasEmbaralhadas.length;
 
   perguntasEmbaralhadas.forEach((pergunta, index) => {
@@ -258,16 +406,16 @@ function gerarQuiz() {
 
     // B. Garante que a opção correta esteja sempre presente
     const opcaoCorreta = pergunta.alternativasDisponiveis.find(
-      (alt) => alt.correta
+      (alt) => alt.correta,
     );
     const opcoesIncorretas = pergunta.alternativasDisponiveis.filter(
-      (alt) => !alt.correta
+      (alt) => !alt.correta,
     );
 
     // Embaralha as incorretas e pega a quantidade necessária
     const incorretasSorteadas = embaralhar(opcoesIncorretas).slice(
       0,
-      pergunta.qtdAlternativasExibir - 1
+      pergunta.qtdAlternativasExibir - 1,
     );
 
     // Junta a correta com as incorretas sorteadas e embaralha tudo
@@ -360,9 +508,8 @@ document.getElementById("quiz-form").addEventListener("submit", function (e) {
   this.querySelectorAll("input").forEach((input) => (input.disabled = true));
   document.getElementById("btn-enviar").disabled = true;
 
-  document.getElementById(
-    "resultado"
-  ).textContent = `Você acertou ${acertos} de ${totalPerguntasExibidas} perguntas!`;
+  document.getElementById("resultado").textContent =
+    `Você acertou ${acertos} de ${totalPerguntasExibidas} perguntas!`;
 });
 
 // Inicia o quiz ao carregar a página
