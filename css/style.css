@@ -167,22 +167,35 @@ section.estudo-plus li img {
   width: 30vw;
 }
 
-section.quase-footer {
+footer {
   background-color: #f0b478;
   text-align: left;
   padding: 2vw;
 }
 
-section.quase-footer img {
+footer img {
   width: 5vw;
   padding-right: 1.5vw;
 }
 
-section.quase-footer div {
+footer div {
   padding-top: 0.5vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+footer p{
+  text-align: left;
+}
+
+footer p.final{
+  text-align: center;
+  margin-top: 1vw;
+}
+
+footer h2{
+  text-align: left;
 }
 
 section.banner-assuntos {
@@ -252,16 +265,16 @@ footer {
     font-size: 3vw;
   }
 
-  section.quase-footer img {
+  footer img {
     width: 7.5vw;
     padding-right: 1.5vw;
   }
 
-  section.quase-footer p {
+  footer p {
     font-size: 2.75vw;
   }
 
-  section.quase-footer div h2 {
+  footer div h2 {
     font-size: 4vw;
   }
 
