@@ -118,7 +118,7 @@ body.inicio section.assuntos div ul li {
     box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.inicio section.assuntos div ul li a h6 {
+body.inicio section.assuntos div ul li a h3 {
     color: #ffffff;
     padding: 50% 0;
     line-height: 0%;
