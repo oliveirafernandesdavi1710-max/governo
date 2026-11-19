@@ -36,5 +36,5 @@ body.criadores main ul li img {
 
 @media only screen and (max-width: 600px) {
   body.criadores main section.criadores{
-  margin: 5vw 10vw;
+  margin: 5vw;
   }
