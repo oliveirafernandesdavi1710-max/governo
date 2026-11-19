@@ -119,6 +119,7 @@ const bancoDePerguntas = [
     link: "index.html#assuntos",
   },
   {
+  {
     id: "p6",
     enunciados: [
       "Qual a ordem correta das classes da pirâmide social do império romano, analisando da classe mais baixa até a classe mais alta?",
@@ -126,22 +127,22 @@ const bancoDePerguntas = [
     alternativasDisponiveis: [
       {
         texto:
-          "Imperador, escravos, plebe, patrícios, libertos , senadores e homens livres.",
+          "Imperador, generais, educadores, escravos, plebe, patrícios, clientes, libertos, educadores, senadores e homens livres.",
         correta: false,
       },
       {
-        texto: "Escravos, libertos, plebe, senadores, patrícios e imperador.",
+        texto: "Escravos, libertos, educadores, plebe, legião, senadores, clientes, generais, patrícios e imperador.",
         correta: false,
       },
       {
         texto:
-          "Escravos, libertos, homens livres, plebe, patrícios, senadores e imperador.",
+          "Escravos, libertos, homens livres, plebe, educadores, legião, clientes, patrícios, generais, senadores e imperador.",
         correta: true,
       },
     ],
     qtdAlternativasExibir: 3,
     textoLink: "Veja mais em: INÍCIO",
-    link: "index.html#assuntos",
+    link: "index.html",
   },
   {
     id: "p7",
