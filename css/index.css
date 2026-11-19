@@ -92,10 +92,6 @@ body.inicio section.assuntos h2 {
     box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.inicio section.assuntos h3{
-    font-size: 2.5vw;
-}
-
 body.inicio section.assuntos div ul {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -122,6 +118,8 @@ body.inicio section.assuntos div ul li a h3 {
     color: #ffffff;
     padding: 50% 0;
     line-height: 0%;
+    font-size: 2.5vw;
+    text-decoration: none;
 }
 
 body.inicio section.assuntos div ul li.imperadores {
@@ -219,10 +217,6 @@ body.inicio section.assuntos div ul li.quiz {
         margin: 5vw;
     }
 
-    body.inicio section.assuntos h3{
-    font-size: 3.75vw;
-}
-
     body.inicio section.assuntos div ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -238,5 +232,9 @@ body.inicio section.assuntos div ul li.quiz {
         background-blend-mode: color;
         border-radius: 2vw;
         box-shadow: 0 1vw 2vw 1vw #0000009f;
+    }
+
+    body.inicio section.assuntos div ul li a h3 {
+    font-size: 3.75vw;
     }
 }
