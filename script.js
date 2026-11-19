@@ -52,7 +52,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: SENADORES",
-    link: "index.html#assuntos",
+    link: "senadores.html",
   },
   {
     id: "p3",
@@ -81,7 +81,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: PLEBE",
-    link: "index.html#assuntos",
+    link: "plebe.html",
   },
   {
     id: "p4",
@@ -92,7 +92,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 2,
     textoLink: "Veja mais em: IMPERADORES",
-    link: "index.html#assuntos",
+    link: "imperador.html",
   },
   {
     id: "p5",
@@ -116,9 +116,8 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 3,
     textoLink: "Veja mais em: ESCRAVOS",
-    link: "index.html#assuntos",
+    link: "escravos.html",
   },
-  {
   {
     id: "p6",
     enunciados: [
@@ -162,7 +161,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: PATRÍCIOS",
-    link: "index.html#assuntos",
+    link: "patricios.html",
   },
   {
     id: "p8",
@@ -177,7 +176,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 3,
     textoLink: "Veja mais em: PLEBE",
-    link: "index.html#assuntos",
+    link: "plebe.html",
   },
   {
     id: "p9",
@@ -192,7 +191,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: SENADORES",
-    link: "index.html#assuntos",
+    link: "senadores.html",
   },
   {
     id: "p10",
@@ -215,7 +214,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: IMPERADORES",
-    link: "index.html#assuntos",
+    link: "imperador.html",
   },
   {
     id: "p11",
@@ -234,7 +233,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 3,
     textoLink: "Veja mais em: CLIENTES",
-    link: "index.html#assuntos",
+    link: "clientes.html",
   },
   {
     id: "p12",
@@ -256,7 +255,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: CLIENTES",
-    link: "index.html#assuntos",
+    link: "clientes.html",
   },
   {
     id: "p13",
@@ -285,7 +284,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: CLIENTES",
-    link: "index.html#assuntos",
+    link: "clientes.html",
   },
   {
     id: "p14",
@@ -313,7 +312,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: EDUCADORES",
-    link: "index.html#assuntos",
+    link: "educadores.html",
   },
   {
     id: "p15",
@@ -341,7 +340,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: EDUCADORES",
-    link: "index.html#assuntos",
+    link: "educadores.html",
   },
   {
     id: "p16",
@@ -354,7 +353,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: LEGIÃO",
-    link: "index.html#assuntos",
+    link: "legiao.html",
   },
   {
     id: "p17",
@@ -367,7 +366,7 @@ const bancoDePerguntas = [
     ],
     qtdAlternativasExibir: 4,
     textoLink: "Veja mais em: LEGIÃO",
-    link: "index.html#assuntos",
+    link: "legiao.html",
   },
 ];
 
