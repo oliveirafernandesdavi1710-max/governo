@@ -33,3 +33,8 @@ body.fontes main ul li img {
   border-radius: 2vw;
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
+
+@media only screen and (max-width: 600px) {
+  body.fontes main section.fontes{
+  margin: 5vw;
+  }
