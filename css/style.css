@@ -178,11 +178,16 @@ footer img {
   padding-right: 1.5vw;
 }
 
-footer div a{
+footer div{
   padding-top: 0.5vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+footer div div a{
+  text-align: left;
+  align-items: center;
 }
 
 footer p{
@@ -192,10 +197,6 @@ footer p{
 footer p.final{
   text-align: center;
   margin-top: 1vw;
-}
-
-footer h2{
-  text-align: left;
 }
 
 section.banner-assuntos {
@@ -271,7 +272,7 @@ section.quiz2 {
     font-size: 3vw;
   }
 
-  footer div h2 {
+  footer div div h2 {
     font-size: 4vw;
   }
 
