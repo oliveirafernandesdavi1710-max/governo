@@ -178,7 +178,7 @@ footer img {
   padding-right: 1.5vw;
 }
 
-footer div {
+footer div a{
   padding-top: 0.5vw;
   display: flex;
   align-items: center;
@@ -217,13 +217,6 @@ section.estudo-plus {
 section.quiz2 {
     margin: 0vw 10vw 5vw;
 }
-
-footer {
-  background-color: #f0b478;
-  text-align: center;
-  padding: 2vw;
-}
-
 
 @media only screen and (max-width: 600px) {
   header {
