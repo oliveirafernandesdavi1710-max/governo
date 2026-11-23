@@ -16,8 +16,7 @@ body.criadores main section.criadores{
   margin: 5vw 10vw;
 }
 
-body.criadores main li {
-  display: flex;
+body.criadores main li{
   gap: 1.5vw;
   background-color: #f0c8a0;
   padding: 2vw;
@@ -26,12 +25,27 @@ body.criadores main li {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.criadores main ul li img {
+body.criadores main li div.foto-texto{
+  display: flex;
+}
+
+body.criadores main li div.redes-sociais{
+  display: flex;
+  align-items: center;
+}
+
+body.criadores main ul li div.foto-texto img {
   width: 30vw;
   height: 30vw;
   margin: 1.5vw;
   border-radius: 2vw;
   box-shadow: 0 1vw 2vw 1vw #0000009f;
+}
+
+body.criadores main li div.redes-sociais img{
+  width: 5vw;
+  height: 5vw;
+  margin: 0.75vw;
 }
 
 @media only screen and (max-width: 600px) {
