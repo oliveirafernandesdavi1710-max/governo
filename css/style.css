@@ -181,6 +181,7 @@ footer div.logo-rodape img {
 footer div.redes-sociais img {
   width: 3.5vw;
   height: 3.5vw;
+  padding: 0vw 0.75vw;
 }
 
 footer div.rodape{
@@ -285,6 +286,7 @@ section.quiz2 {
   footer div.redes-sociais img {
     width: 5vw;
     height: 5vw;
+    padding: 0vw 0.75vw;
   }
 
   footer p {
