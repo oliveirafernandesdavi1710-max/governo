@@ -185,7 +185,7 @@ footer div.rodape{
   justify-content: space-between;
 }
 
-footer div div.logo-rodape{
+footer div div.logo-rodape a{
   text-align: left;
   display: flex;
   align-items: center;
