@@ -178,19 +178,25 @@ footer img {
   padding-right: 1.5vw;
 }
 
-footer div{
+footer div.rodape{
   padding-top: 0.5vw;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-footer div div a{
+footer div div.logo-rodape{
   text-align: left;
   display: flex;
   align-items: center;
   text-decoration: none;
   color: rgb(0,0,0);
+}
+
+footer div div.redes-sociais{
+  text-align: left;
+  display: flex;
+  align-items: center;
 }
 
 footer p{
@@ -266,7 +272,12 @@ section.quiz2 {
     font-size: 3.5vw;
   }
 
-  footer img {
+  footer div.logo-rodape img {
+    width: 10vw;
+    padding-right: 1.5vw;
+  }
+
+  footer div.redes-sociais img {
     width: 7.5vw;
     padding-right: 1.5vw;
   }
