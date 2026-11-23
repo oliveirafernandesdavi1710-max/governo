@@ -29,7 +29,7 @@ body.criadores main li div.foto-texto{
   display: flex;
 }
 
-body.criadores main li div.redes-sociais{
+body.criadores main li div.sociais-criador{
   display: flex;
   align-items: center;
 }
@@ -42,7 +42,7 @@ body.criadores main ul li div.foto-texto img {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.criadores main li div.redes-sociais img{
+body.criadores main li div.sociais-criador img{
   width: 5vw;
   height: 5vw;
   margin: 0.75vw;
