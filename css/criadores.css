@@ -44,7 +44,7 @@ body.criadores main ul li div.foto-texto img {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.criadores main li div.sociais-criador a img{
+body.criadores main li div.sociais-criador a img.github-icon{
   width: 5vw;
   height: 5vw;
   margin: 0.75vw;
