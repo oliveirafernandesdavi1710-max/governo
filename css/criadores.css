@@ -36,7 +36,7 @@ body.criadores main li div.sociais-criador a{
   color: rgb(0,0,0);
 }
 
-body.criadores main ul li div.foto-texto img {
+body.criadores main div.foto-texto img {
   width: 30vw;
   height: 30vw;
   margin: 1.5vw;
@@ -44,7 +44,7 @@ body.criadores main ul li div.foto-texto img {
   box-shadow: 0 1vw 2vw 1vw #0000009f;
 }
 
-body.criadores main li div.sociais-criador a img.github-icon{
+body.criadores main img.github-icon{
   width: 5vw;
   height: 5vw;
   margin: 0.75vw;
