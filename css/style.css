@@ -159,6 +159,16 @@ section.estudo-plus li a {
   text-decoration: none;
 }
 
+section.estudo-plus li.video video {
+  width: 100%;
+  height: 45vw;
+  border-radius: 2.5vw;
+}
+
+section.estudo-plus li.video a {
+  display: block;
+}
+
 section.estudo-plus li a:hover {
   color: #00f;
 }
